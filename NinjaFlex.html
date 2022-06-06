@@ -1,62 +1,66 @@
 <!DOCTYPE html>
 <html lang="de">
-	<head>
-		<meta charset="UTF-8">
-		<title>NinjaflexOnMouseOver</title>
-		<style>
-			*{
-				margin: auto;
-				padding: 0;
-				margin: 0;
-			}
-			body{
-				background: url("https://media1.tenor.com/images/2cc46b33e6ab2b266aee273916101d73/tenor.gif?itemid=9070863");
-			}
-			body:hover{
-				background: url("https://media1.tenor.com/images/bb8cb793dbffc8bcdd582b90baa7f27d/tenor.gif?itemid=13021431");
-			}
-			.ninja{
-				background-image:url(https://media.tenor.com/images/9e86b627f19421812327b993fc3c7b27/tenor.gif);
-				width:190px;
-				height:190px;
-			}
-			.ninja:hover{
-				background-image:url(https://media.tenor.com/images/50dc452370888d0cefaffd5d2f37924e/tenor.gif);
-				}
-			.flex{
-				background-image:url(https://media.tenor.com/images/6a5edb493e5a5010f6e1409effd06af3/tenor.gif);
-				height:190px;
-				width:190px;
-				}
-			.flex:hover{
-				background-image:url(https://media.tenor.com/images/4fdf2ebfd088d96f2534a529a1b98ac9/tenor.gif);
-				background-repeat: no-repeat;
-				}
-			#container{
-				display: flex;
-				position: fixed;
-				top: 50%;
-				left: 50%;
-				transform: translateX(-50%) translateY(-50%);
-				}
-		</style>
-	</head>
-	<body>
-		<main>
-		<audio id="ninjaa">
-			<source src="https://ninjaflex.com/ninjaa.mp3">
-			<source src="https://ninjaflex.com/ninjaa.wav">
-		</audio>
-		<audio id="fleex">
-			  <source src="https://ninjaflex.com/fleex.mp3">
-			  <source src="https://ninjaflex.com/fleex.wav">
-		</audio>
-		<div id="container">
-			<div onmouseover="document.getElementById('ninjaa').play()" class="ninja">
-			</div>
-			<div onmouseover="document.getElementById('fleex').play()" class="flex">
-			</div>
-		</div>
-	</main>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>NinjaflexOnMouseOver</title>
+    <style>
+      * {
+        margin: auto;
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background: url("https://media1.tenor.com/images/2cc46b33e6ab2b266aee273916101d73/tenor.gif?itemid=9070863");
+      }
+      body:hover {
+        background: url("https://media1.tenor.com/images/bb8cb793dbffc8bcdd582b90baa7f27d/tenor.gif?itemid=13021431");
+      }
+      .ninja {
+        background-image: url(https://media.tenor.com/images/9e86b627f19421812327b993fc3c7b27/tenor.gif);
+        width: 190px;
+        height: 190px;
+      }
+      .ninja:hover {
+        background-image: url(https://media.tenor.com/images/50dc452370888d0cefaffd5d2f37924e/tenor.gif);
+      }
+      .flex {
+        background-image: url(https://media.tenor.com/images/6a5edb493e5a5010f6e1409effd06af3/tenor.gif);
+        height: 190px;
+        width: 190px;
+      }
+      .flex:hover {
+        background-image: url(https://media.tenor.com/images/4fdf2ebfd088d96f2534a529a1b98ac9/tenor.gif);
+        background-repeat: no-repeat;
+      }
+      #container {
+        display: flex;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <audio id="ninjaa">
+        <source src="https://ninjaflex.com/ninjaa.mp3" />
+        <source src="https://ninjaflex.com/ninjaa.wav" />
+      </audio>
+      <audio id="fleex">
+        <source src="https://ninjaflex.com/fleex.mp3" />
+        <source src="https://ninjaflex.com/fleex.wav" />
+      </audio>
+      <div id="container">
+        <div
+          onmouseover="document.getElementById('ninjaa').play()"
+          class="ninja"
+        ></div>
+        <div
+          onmouseover="document.getElementById('fleex').play()"
+          class="flex"
+        ></div>
+      </div>
+    </main>
+  </body>
 </html>
