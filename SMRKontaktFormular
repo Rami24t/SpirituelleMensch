@@ -93,7 +93,7 @@
           <h2>Kontakt Formular</h2>
           <form
             target="_blank"
-            onsubmit="location.href='./thx';"
+            onsubmit="location.href='danke';"
             action="mailto:ramissaadi@gmail.com"
             method="post"
           >
