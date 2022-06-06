@@ -236,11 +236,9 @@
           $(this).css(
             "background-image",
             "url(https://source.unsplash.com/random/" +
-              window.innerWidth +
-              1 +
+              (window.innerWidth + 1) +
               "x" +
-              window.innerHeight * 0.9 +
-              1 +
+              (window.innerHeight * 0.9 + 1) +
               "?universe?time=" +
               new Date().getTime() +
               ")"
