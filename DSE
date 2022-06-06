@@ -1247,10 +1247,7 @@
       </footer>
       <aside class="werbung1Banner werbung2Banner">
         <p onclick="$('.werbung1Banner').hide(200);">x</p>
-        <a
-          href="https://youtu.be/vzzVsOdumqg?list=UUgjxQJ6TlKqhHax8742ZMdA"
-          target="_blank"
-        >
+        <a href="https://youtu.be/45YxAEmgaxg" target="_blank">
           <div class="container">
             <img src="./img/Werbung3Avatar.gif" alt="Avatar" title="See" />
           </div>

@@ -70,7 +70,7 @@ document.getElementById("nachoben").style.opacity = "0";
 
 	$('a.mail').on('click', function () {
 		var href = $(this).attr('href');
-		$(this).attr('href', href.replace('yahoo.', 'gma' /*this is a java script file that-*/ + 'il.'));
+		$(this).attr('href', href.replace('yahoo.', 'gma' /*this is a java script code that-*/ + 'il.'));
 		href = $(this).attr('href');
 		$(this).attr('href', href.replace('youa', 'ra' /*-uses Jquery and it is named:-*/ + 'mi'));
 		href = $(this).attr('href');
