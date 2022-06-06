@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Rümi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="description" content="Rumi war ein persischer Sufi-Mystiker, Gelehrter und einer der bedeutendsten persischsprachigen Dichter des Mittelalters. Von seinen Anhängern, ..."/>
+  <meta name="subject" content="Rumis Leben, Philosophie, und Spiritualität" />
+  <meta name="language" content="de" />
+  <meta name="robots" content="index,follow" />
+  <meta name="revised" content="Thursday, March 5th, 2020, 2:15 pm" />
+  <meta name="abstract" content="Rumi, wer war er? und was hat er versucht, uns zu verbringen?" />
+  <meta name="og:title" property="og:title" content="Spirituelle Menschen / Rumi">
+  <meta name="topic" content="Philosophie und Spiritualität" />
+  <meta name="author" content="Rami, muster@gmail.com" />
+  <meta name="designer" content="Rami Al-Saadi, muster@gmail.com" />
+  <meta name="copyright" content="Rami Al-Saadi"/>
+  <meta name="reply-to" content="ramimuster@gmail.com" />
+  <meta name="owner" content="Rami Al-Saadi" />
+  <meta name="directory" content="submission" />
+  <meta name="category" content="Education" />
+  <meta name="coverage" content="Worldwide" />
+  <meta name="distribution" content="Global" />
+  <meta name="rating" content="General" />
+  <meta name="revisit-after" content="7 days" />
+  <meta name="keywords" content="Rumi, Sufismus, Philosophie, Gedichter, Spiritualität, man, Gott, Psychologie, Geselschaft"/>
+  <link rel="icon" type="image/ico" href="rumiIcon.ico" />
+  <link rel="shortcut icon" href="rumiIcon.ico" />
+  <link rel="stylesheet" href="css/default.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./script/SM.js"></script>
+</head>
+
+<body id="rumi">
+  <div id="all">
+    <div id="nav">
+			<nav id="topnav">
+				<ul>
+					<li><a>Menu</a></li>
+					<li><a href="./">Home</a></li>
+					<li class="current"><a href="Rumi">Rūmī</a></li>
+					<li><a href="Plato">Platon</a></li>
+					<li><a href="Buddha">Buddha</a></li>
+					<li><a href="Socrates">Socrates</a></li>
+					<li><a href="SMRKontaktFormular">Kontakt</a></li>
+					<li><a href="DSE#impressum">Impressum</a></li>
+					<li><a href="DSE#dtse">Datenschütz</a></li>
+					<li><a href="About">About</a></li>
+				</ul>
+			</nav>
+		</div>
+		<header class="fg">
+			<h1> <a href="./">Spirituelle Menschen</a></h1>
+			<blockquote>
+			  <a href="./PDFs/Smaragdtafeln.pdf" download target="_blank" class="unformattedLink"> "Ich gebe, damit
+				auch sie Weisheit
+				erlangen mögen, um aus dem Schleier der Nacht durch die Welt zu leuchten." , Die Smaragdtafeln </a>
+			</blockquote>
+			<nav id="imgnav">
+			  <a href="Rumi">Rūmī</a> | <a href="Plato">Platon</a> | <a href="Buddha">Buddha</a> | <a
+				href="Socrates">Socrates</a>
+				<figure>
+					<a href="img/teddy-scene.jpg" download><img src="img/teddy-scene.jpg" alt="teddy scene image"></a>
+				</figure>
+			</nav>
+		</header>
+    <main>
+      <article>
+        <div class="fg">
+      <section>
+      <h2 id="Titleh2"> Rūmī </h2>
+      <p>Dschalāl ad-Dīn Muhammad Rūmī – kurz Rūmī (auch Rumi geschrieben) genannt – (Gesamtname persisch, DMG Ǧalāl ad-Dīn Muḥammad bin Šaiḫ Bahā’ ad-Dīn
+        Muḥammad bin Ḥusain-i Balḫī-yi Rūmī), in Iran meist Maulawī genannt (geboren am 30. September
+        1207 in Balch, heute Afghanistan, oder Wachsch[1] bei Qurghonteppa, heute Tadschikistan; gestorben am
+        17. Dezember 1273 in Konya), war ein persischer Sufi-Mystiker, Gelehrter und einer der bedeutendsten
+        persischsprachigen Dichter des Mittelalters. Von seinen Anhängern, insbesondere den Derwischen, erhielt
+        er den Beinamen Maulana (arabisch, DMG Maulānā; türkische Schreibweise: Mevlânâ, international
+        auch Mevlana), „unser Herr/Meister“ (von arabisch maulā; vgl. Mullah). Nach ihm ist der
+        Mevlevi-Derwisch-Orden benannt.
+      </p>
+</section>
+<div>
+      <div class="youtubevideo">
+        <iframe width="925" height="694"
+          src="https://www.youtube.com/embed/inf-uguWfRE?list=PL8clmp7bR-PfaIIJIipyq4vyRRk0Hw1EE"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      </div>
+      <section>
+      <h2>Inhaltsverzeichnis </h2>
+
+      <ol>
+        <li><a href="#Leben"> Leben</a>
+          <ol>
+            <li><a href="#Kindheit"> Kindheit und Jugend</a></li>
+            <li><a href="#Ausbildung"> Ausbildung</a></li>
+            <li> <a href="#Lebensweg"> Lebensweg</a></li>
+            <li><a href="#Mausoleum"> Mausoleum</a></li>
+          </ol>
+        </li>
+        <li> <a href="#Werke">Werke</a></li>
+        <li><a href="#Lehre">
+            Lehre
+          </a> </li>
+        <li><a href="#UNESCO">
+            UNESCO und sein 800. Jubiläum
+          </a> </li>
+        <li><a href="#Literatur">
+            Literatur
+          </a>
+          <ol>
+            <li> <a href="#Primärtexte">
+                Primärtexte
+              </a> </li>
+            <li><a href="#Sekundärliteratur">
+                Sekundärliteratur
+              </a></li>
+          </ol>
+        </li>
+        <li> <a href="#Weblinks"> Weblinks </a></li>
+        <li><a href="#Einzelnachweise">
+            Einzelnachweise und Anmerkungen
+          </a> </li>
+        <li> <a href="#PDFdownloads"> PDF Downloads </a></li>
+        <li> <a href="#Credit"> Hauptkredite und Quellen </a></li>
+      </ol>
+</section>
+</div>
+<div class="bgimg-1">
+  <p class=bgText> Jenseits</p>
+  </div>
+<div class="fg">
+<section>
+      <a class="anchor" id="Leben"></a>
+      <h2>Leben </h2>
+  <p>
+      Rumis Vater, Baha ad-Din Walad, war ein angesehener Theologe in der historischen Region Chorasan, der bei
+      der Geburt seines Sohnes entweder in Balch südlich des Amudarja oder in dem kleinen Ort Wachsch (Lewkand)
+      nördlich des Flusses lebte[2] und dessen spirituelle Linie auf Ahmad Ghazali zurückgeführt wird; sein
+      Großvater väterlicherseits, Husain, war ein bekannter Gelehrter. Einer frühen und legendenhaften Biografie
+      zufolge soll seine väterliche Abstammung auf den Kalifen Abu Bakr zurückzuführen sein, während seine Mutter,
+      Mu'mina, die Tochter des Choresm-Schahs Muhammad II. gewesen sein soll.</p>
+      <a class="anchor" id="Kindheit"></a>
+      <h3>Kindheit und Jugend </h3>
+      <p>
+        Als Rumi noch ein Kind war, fielen die Mongolen unter Dschingis Khan im Jahr 1219 in Balch ein. Das
+        hatte sein Vater vorausgesehen, da der Choresm-Schah einige Kaufleute der Mongolen töten ließ und ein
+        Racheakt zu befürchten war. So hatte er mit seiner Familie die Gegend schon verlassen, um nach Mekka zu
+        pilgern. Auf dem Weg dorthin trafen sie in Nischapur auf den bekannten Sufi Farid ad-Din Attar, der zu
+        jenem Zeitpunkt bereits ein alter Mann war.
+      </p>
+      <p>
+        Im Anschluss an die Pilgerfahrt nach Mekka machte sich die Familie auf den Weg nach Anatolien (Rūm,
+        daher der Beiname Rūmī), das damals von den Rum-Seldschuken beherrscht wurde. Während eines Aufenthalts
+        in Laranda, dem heutigen Karaman, starb Dschalal ad-Dins Mutter; ihr Grab ist bis heute ein
+        Wallfahrtsort. Daraufhin zog die Familie nach Konya. Dort heiratete Dschalal ad-Din Gauhar-Hatun, die
+        ebenfalls aus dem Osten geflüchtet war.
+      </p>
+    <a class="anchor" id="Ausbildung"></a>
+      <h3>Ausbildung</h3>
+      <p>
+        Der Seldschuken-Sultan Ala ad-Din Kai-Qubad I., der in der nahegelegenen Stadt Konya residierte, hörte
+        1228 von Baha ad-Din Walads neuem Aufenthaltsort. Weil er die Wissenschaften und die Philosophie
+        schätzte und förderte, schrieb er an ihn, um ihm einen Wohnsitz und einen Lehrstuhl an der Madrasa
+        (Universität) von Konya anzubieten. Dschalal ad-Din studierte dort unter seinem Vater islamische
+        Wissenschaften und übernahm nach dessen Tod im Jahr 1230 oder 1231 seinen Lehrstuhl.
+        </p>
+        <a class="anchor" id="Lebensweg"></a>
+        <h3>Lebensweg</h3>
+        <p>
+          In den Sufismus wurde er von einem Murschid namens Sayyid Burhanuddin Muhaqqiq Tirmidhi eingeführt.
+          Gemeinsam reisten sie nach Aleppo und Damaskus, wo sie Ibn Arabi aus Spanien (Murcia), einem
+          einflussreichen Sufi-Meister, begegnet sein sollen.
+        </p>
+        <p>
+          Als Gelehrter erlangte Maulana Dschalal ad-Din (Rumi) große Berühmtheit, und er lebte und handelte,
+          wie es sich für einen gestandenen und hochangesehenen Gelehrten traditionell gehörte. Erst als er
+          1244 in Konya auf den Derwisch Schams-e Tabrizi (auch bekannt als Schamsuddin Tabrizi) traf, änderte
+          sich sein Leben von Grund auf. Schams-e Tabrizi war selber ein Schüler von Hadschi Baktasch Wali,
+          der zur selben Zeit lebte. Schams war eine starke Persönlichkeit, ausgestattet mit großen
+          spirituellen Fähigkeiten. Die spirituelle Bindung zwischen den beiden Freunden wurde so stark, dass
+          Maulana (Rumi) der Welt zeitweilig entsagte, um sich ganz den Geheimnissen des Freundes zu
+          verschreiben.
+        </p>
+        <p>
+          Nachdem die Eifersucht und der Neid vieler einflussreicher Konyaer zu groß geworden war, floh Schams
+          aus der Stadt. Rumis Trauer war groß, bis Schams eines Tages zurückkehrte. Vermutlich weil die
+          Situation nach einiger Zeit wieder ebenso unerträglich wurde wie vorher, verschwand Schams für
+          immer. Es wird heute angenommen, dass er ermordet wurde. Die Sehnsucht nach dem Freund inspirierte
+          Maulana Dschalal ad-Din (Rumi) zu dem bis heute nachgeahmten Reigentanz und zum Dichten seiner
+          ebenfalls bis heute vielzitierten Verse.
+        </p>
+        <a class="anchor" id="Mausoleum"></a>
+        <h3>Mausoleum</h3>
+        <p>
+          Nach seinem Tod wurde Maulana Dschalal ad-Din in einem Mausoleum beigesetzt, das dem Maulawi-Orden
+          (Türkisch: Mevlevi) daraufhin ebenfalls als Versammlungsort (Tekke) diente. Dieses Mausoleum ist
+          seitdem das Wahrzeichen von Konya und dient bis in die heutige Zeit als Wallfahrtsort gläubiger
+          Muslime und der Anhänger Maulanas. Als Atatürk am 2. September 1925 im Zuge der Säkularisierung
+          öffentliche religiöse Handlungen verbot, war auch der Mevlevi-Orden davon betroffen. Trotzdem verlor
+          Dschalal ad-Dins Grab nicht an Bedeutung. In der breiten Bevölkerung ist es Brauch, nach dem Besuch
+          des Mausoleums, das von der türkischen Regierung zu einem Museum umgewandelt wurde, kleine Amulette
+          in Form des Grabmals zu kaufen.
+        </p>
+        <p>
+          Sein Todestag, der 17. Dezember, wird traditionell mit dem şeb-i âruz (persisch, DMG šab-i
+          ʿarūsī, ‚Hochzeitsnacht‘) begangen; Rumi bezeichnete seinen Todestag nämlich als große Hochzeit, da
+          er an diesem mit Gott vereint sein würde. Die Feierlichkeiten finden in Konya statt.
+        </p>
+        <a href="#" class="nachoben2">zurück nach oben</a>
+      </section>
+</div>
+        <div class="bgimg-2">
+          <div class=bgText>von richtig</div>
+      </div>
+  <div class="fg">
+<section>
+  <a class="anchor" id="Werke"></a>
+        <h2> Werke </h2>
+        <ul>
+          <li>Rūmīs wichtigstes poetisches Werk ist sein 25.700 Verszeilen umfassender Mathnawi mit dem Titel
+            Masnawī-yi Maʿnawī. Mit Bezug auf dieses Werk soll der Mystiker Dschami über Maulana gesagt
+            haben: „Er ist kein Prophet, und doch hat er ein Buch?“.[3] Kamāl ad-Dīn Husain ibn-i Hasan-i
+            Chārazmī (gest. ca. 1436) verfasste zu diesem Werk einen Kommentar mit dem Titel Ǧawāhir
+            al-asrār wa-zawāhir al-anwār[4], der 2005 in Teheran von Muhammad Dschawād Scharīʿat in vier
+            Bänden herausgegeben wurde.</li>
+
+          <li>Ein weiteres Hauptwerk Maulanas ist der Diwan-e Schams-e Tabrizi (Der Diwan von Schams-e
+            Tabrizi; Schams-ad Din = Sonne des Glaubens), der 35.000 Zeilen enthält. Dieser entstand in
+            einem Zeitraum von 30 Jahren, vom Verschwinden Schams bis zu Maulanas Tod im Jahr 1273 in Konya.
+            Verglichen mit dem eher nüchternen Mathnawi gibt der Diwan deutlicher das Gefühl der mystischen
+            Trunkenheit wieder.</li>
+
+          <li>Vergleichbar mit dem Mathnawi ist die Prosasammlung Fihi ma fihi (wörtl. Darin ist, was darin
+            ist)[5]. Es handelt sich hierbei um Vorträge, die er seinen Schülern hielt; genauso wie
+            Madschalis-i Sab’a (Sieben Sitzungen), die er vor seinem Zusammentreffen mit Schams vor der
+            Öffentlichkeit hielt.</li>
+        </ul>
+        </section>
+        <section>
+          <a class="anchor" id="Lehre"></a>
+        <h2>Lehre</h2>
+        <p>
+          Die Lehre Maulanas (Rumis) basierte darauf, dass er die Liebe als die Hauptkraft des Universums
+          ansah. Genauer gesagt ist das Universum ein Harmonisches Ganzes, in dem jeder Teil mit allen anderen
+          in einer Liebes-Beziehung steht, die wiederum einzig und allein auf Gott gerichtet ist und nur durch
+          seine Liebe überhaupt Bestand haben kann.
+        </p>
+        <p>
+          Der Mensch, der als ein Teil dieses harmonischen Ganzen geschaffen ist, kann die Harmonie mit sich
+          selbst und dem Universum nur erreichen, wenn er lernt, Gott zu lieben. Seine Liebe zu Gott wird ihn
+          dazu befähigen, nicht nur seine Mitmenschen, sondern alles von Gott Geschaffene lieben zu können.
+        </p>
+        <p>
+
+          Gott durch Liebe näher zu kommen ist für Maulana, wie für die meisten Sufis, der Weg zur wahren
+          Erfüllung im Leben. Der Grund für seine Berühmtheit ist, dass er die Fähigkeit besaß, diese Lehre in
+          Poesie wiederzugeben.
+        </p>
+        <p>
+
+          Die ihm, eventuell fälschlich, zugeschriebenen Verse[6][7] drücken dieses Verständnis aus:</p>
+        <blockquote>
+          Komm! Komm! Wer du auch bist! <br>
+          Wenn du auch Götzendiener oder Feueranbeter bist.<br>
+          Komm wieder! Dies ist die Tür der Hoffnung, nicht der Hoffnungslosigkeit.<br>
+          Auch wenn du tausendmal dein Versprechen gebrochen hast.<br>
+          Komm! Komm wieder!
+        </blockquote>
+        <p>
+          Er beschrieb mit derselben Sprachgewandtheit die Freude, Gott näher zu kommen, wie die Trauer, von
+          Gott getrennt sein zu müssen. Wie andere mystische Dichter bezeichnete er Gott als den Geliebten und
+          die menschliche Seele, die auf der Suche nach Gott ist, als den Liebenden.
+        </p>
+        <p>
+          Besonders bekannt sind auch seine Vierzeiler, die in knappen Worten Lebensweisheiten ausdrücken:</p>
+        <blockquote>
+          „Glaubst du, ich weiß, was ich tue?<br>
+          Dass ich einen Atemzug lang oder einen halben mir selber angehöre?<br>
+          Nicht mehr, als eine Feder weiß, was sie schreibt,<br>
+          oder der Ball vermuten kann, wohin er gleich fliegt.“<br>-D 1358[8]
+        </blockquote>
+<p>
+        Ein berühmtes Gedicht, das von Friedrich Rückert (1788–1866) vorzüglich ins Deutsche übertragen wurde,
+        behandelt den Transformationsprozess des menschlichen Daseins und erinnert an den buddhistischen
+        Kreislauf des Lebens, aber auch an Aspekte des Neu<a href="Plato">platon</a>ismus.
+      </p>
+      </section>
+<section>
+  <a class="anchor" id="UNESCO"></a>
+      <h2>UNESCO und sein 800. Jubiläum </h2>
+      <p>
+        UNESCO hat das Jahr 2007 als das Jahr von 'Rumi-Balkhi' erklärt. Aus Anlass seines 800. Geburtsjahres
+        ließ die Weltorganisation eine 'Rumi-Balkhi'-Medaille prägen.[9]
+      </p>
+      <a href="#" class="nachoben2">zurück nach oben</a>
+</section>
+</div>
+      <div class="bgimg-3"><div class="bgText"> und Falsch</div></div>
+      <div class="fg">
+<section>
+  <a class="anchor" id="Literatur"></a>
+      <h2>Literatur </h2>
+      <a class="anchor" id="Primärtexte"></a>
+      <h3> Primärtexte </h3>
+      <h4>Diwan </h4>
+
+      <ul>
+        <li>Nevit Oguz Ergin (Hrsg.), California 2000 (auf der Basis der türkischen Übersetzung von Golpinarli)
+        </li>
+        <li>Arthur John Arberry: Mystical poems of Rumi, first selection, poems 1-200. University of Chicago
+          Press, 1968; Ders.: Mystical poems of Rumi, 2: second selection, poems 201-400. University of
+          Chicago Press.</li>
+        <li>Reynold A. Nicholson: Selected Poems from the Divani Shamsi Tabriz. Cambridge 1898 Auswahl; S.
+          Bogdanov: The Quatrains. In: JASB Band 1, 1935, S. 65–80.</li>
+      </ul>
+
+      <h4> Mathnawi </h4>
+      <ul>
+        <li>Reynold A. Nicholson: The Mathnawí of Jalálu'ddín Rúmí (mit engl. Übers.), London 1924–40
+          vollständiger Text; Bände 7 und 8 mit vollständigem Kommentar</li>
+        <li>Eva de Vitray-Meyerovitch: Mathnawi, de Jalâl ud Dîn Rûmî, avec de la collaboration de Jamshid
+          Murtazavi. éd. du Rocher, 1990, ISBN 2-268-01041-4 vollständiger Text in französischer Übersetzung
+        </li>
+        <li>E. H. Whinfield: Masnavi i Ma'navi: Teachings of Rumi: The Spiritual Couplets of Maulána
+          Jalálu-'d-dín Muhammad i Rúmí. Trübner, London 1887 und Nachdrucke (online; PDF; 1,1 MB)</li>
+        <li>Arthur J. Arberry: Tales from the Masnavi. 1961; ders.: More Tales from the Masnavi. 1963 gekürzt,
+          insb. nur die eigentlichen Erzählungen</li>
+        <li>Erkan Türkmen: The Essence of Rumi's Masnevi: Including His Life and Works. 1992 Auswahl, mit
+          persischem Text und Kommentar</li>
+        <li>Jawid Mojaddedi: Rumi: The Masnavi. Book One, 2004 und ders.: Rumi: The Masnavi. Book Two, 2007
+          gereimte Übertragung</li>
+        <li>Alan Williams: Rumi: Spiritual Verses: The First Book of the Masnavi-ye Manavi (= Penguin
+          classics.). Penguin, London 2006, ISBN 0-14-044791-1 Übertragung in jambische Fünfheber</li>
+        <li>Dschalal addin Rumi: Das Lied der Flöte. (Zweisprachige Ausgabe der 51 Verse des
+          Inhaltsverzeichnisses des Mathnawi, mit Rezitation.) Ins Deutsche übertragen und mit einer
+          Einleitung versehen von Reza Maschajechi. Herausgegeben mit einem Begleitwort von Uta Kutter. Mit
+          CD. Rezitation: Reza Maschajechi und Caroline Wispler; Musik, Vokal und Instrumental: Alev Naqiba
+          Kowalzik; Sound Engineering: Alexander Noelle. Stuttgart: Akademie für Gesprochenes Wort, 2010</li>
+      </ul>
+
+      <h4>Fihi ma fihi</h4>
+      <ul>
+        <li>Annemarie Schimmel: Maulana Dschelaladdin Rumi: Von Allem und vom Einen, aus dem Persischen und
+          Arabischen. München 2008.</li>
+        <li>Arthur John Arberry: Discourses of Rumi. J. Murray, London 1961, 1975, 1993; New York 1972. (online;
+          PDF; 712 kB)</li>
+        <li>Wheeler M. Thackston Jr.: Signs of the Unseen: The Discourses of Jalaluddin Rumi. Shambhala
+          Publications, Putney VT 1994, ISBN 1-57062-532-8.</li>
+      </ul>
+
+      <h4>Sonstige Auswahl- und Leseausgaben</h4>
+      <ul>
+        <li>The Essential Rumi. übersetzt von Coleman Barks mit John Moyne, A. J. Arberry, Reynold Nicholson,
+          San Francisco: HarperCollins, 1996, ISBN 0-06-250959-4; Edison (NJ) and New York: Castle Books,
+          1997, ISBN 0-7858-0871-X. Ausgewählte Gedichte.</li>
+        <li>Johann Christoph Bürgel: Dschalaluddin Rumi: Traumbild des Herzens – Hundert Vierzeiler. Manesse
+          Bücherei Bd. 45, Zürich 1992, ISBN 3-7175-8196-1.</li>
+        <li>William C. Chittick: The Sufi Path of Love: The Spiritual Teachings of Rumi. 1983 thematisch
+          geordnete Auswahl aus verschiedenen Werken</li>
+        <li>Ibrahim Gamard: Rumi and Islam: Selections from His Stories, Poems, and Discourses, annotated and
+          explained, 2004</li>
+        <li>Ali Ghazanfari (Übersetzer/Interpret), Ǧalāl-ad-Dīn Rūmī: Gipfel der Liebe. Ausgewählte Vierzeiler
+          von Rumi; persisch-deutsch. Zweisprachige Ausgabe, Engelsdorfer Verlag, Leipzig 2009, ISBN
+          978-3-86901-171-4.</li>
+        <li>John O’Kane: Shams al-Din Ahmad-e Aflâkî: The Feats of the Knowers of God. 2002 frühe Erzählungen
+          über Rumi</li>
+        <li>Franklin D. Lewis: Rumi: Past and Present, East and West: The Life, Teachings and Poetry of Jalâl
+          al-Din Rumi. Oneworld, Oxford 2003, ISBN 1-85168-335-6. mit Übersetzungen ausgewählter Texte</li>
+        <li>Franklin D. Lewis: Rumi: Swallowing the Sun. 2008 Übersetzungen ausgewählter Texte</li>
+        <li>Liebesmystik: Gedichte aus dem Diwan. ins Dt. übertr. von Reza Maschajechi. Verlag Bibliothek der
+          Provinz, Weitra 2004, ISBN 3-85252-596-9. Dazu Audio-CD Liebesmystik: Gedichte aus dem Diwan, mit
+          Musik gespielt vom Dohnányi-Trio. Verl. Bibliothek d. Provinz, Weitra 2007, ISBN 978-3-85252-809-0.
+        </li>
+        <li>Dschalal ad-Din Rumi: Sieh! Das ist Liebe: Gedichte, ausgewählt und übertragen von Annemarie
+          Schimmel. Basel: Sphinx 1993. Neuausgabe: Chalice, Xanten 2019, ISBN 978-3-942914-41-3.</li>
+        <li>Annemarie Schimmel: Aus dem Diwan . Reclam, Philipp, jun. GmbH, Verlag (1986) ISBN 978-3150089118.
+        </li>
+        <li>Annemarie Schimmel: Rumi: Ich bin Wind und du bist Feuer: Leben und Werk des großen Mystikers.
+          Hugendubel, Kreuzlingen/ München 2003. Neuausgabe: Chalice, Xanten 2017, ISBN 978-3-942914-19-2.
+          Auswahl aus verschiedenen Werken</li>
+      </ul>
+      <a class="anchor" id="Sekundärliteratur"></a>
+      <h3>Sekundärliteratur</h3>
+      <ul>
+        <li>Türkmen Erkan: The Essence of Rumi's Mathnevi. Misket 1992, ISBN 975-95630-0-2. (engl.)</li>
+        <li>Helmut Ritter, A. Bausani: Ḏj̲alāl al- Dīn Rūmī b. Bahāʾ al-Dīn Sulṭān al-ʿulamāʾ Walad b. Ḥusayn b.
+          Aḥmad Ḵh̲aṭībī. In: P. Bearman, Th. Bianquis, C.E. Bosworth, E. van Donzel, W.P. Heinrichs (Hrsg.):
+          Encyclopaedia of Islam. [3]</li>
+        <li>William Chittick (Hrsg.): Shems-i Tabrizi: Me and Rumi, The Autobiography of Shems-i Tabrizi.
+          Vorwort von Annemarie Schimmel, Louisville. Fons Vitae, Kentucky 2004.Kurzrezension</li>
+        <li>Herbert Hopfgartner: Horch mit dem Ohr der Seele den zahllosen Tönen. Musikalische Notizen über den
+          Mystiker Dschelaleddin Rumi. In: Talk Togethet. Nr. 21, Salzburg 2007 (www.talktogether.org)</li>
+        <li>Annemarie Schimmel: Rumi: Ich bin Wind und du bist Feuer. Leben und Werk des großen Mystikers
+          Diederichs Verlag, München 1978 (Neuausgabe bei Chalice, Xanten 2017, ISBN 978-3-942914-19-2).</li>
+      </ul>
+</section>
+</div>
+<div class="bgimg-4"><div class="bgText">liegt ein Ort.</div></div>
+<div class="fg">
+<section>
+  <a class="anchor" id="Weblinks"></a>
+      <h2> Weblinks</h2>
+      <ul>
+        <li><a href="https://commons.wikimedia.org/wiki/Category:Rumi?uselang=de">Commons: Dschalal ad-Din
+            Muhammad Rumi – Sammlung von Bildern, Videos und Audiodateien</a></li>
+        <li><a href="https://de.wikiquote.org/wiki/Dschalal_ad-Din_al-Rumi">Wikiquote: Dschalal ad-Din al-Rumi –
+            Zitate</a></li>
+        <li><a href="https://portal.dnb.de/opac.htm?method=simpleSearch&query=118716158">Literatur von und über
+            Rūmī im Katalog der Deutschen Nationalbibliothek</a></li>
+        <li><a href="https://www.deutsche-digitale-bibliothek.de/person/gnd/118716158">Werke von und über Rūmī
+            in der Deutschen Digitalen Bibliothek</a></li>
+        <li><a href="http://www.mevlana.ch/">Mevlana.ch - Internationale Mevlana Stiftung (deutsch)</a></li>
+        <li><a href="http://www.zeno.org/Literatur/M/Rumi,+%C7%A6al%C4%81l+o%E2%80%99d-din">Werke von Rūmī bei
+            Zeno.org.</a></li>
+        <li><a href="http://www.irania.eu/Gedichte/rumidiwan">Moulana Rumi – Gedichte (deutsch,
+            persisch)</a></li>
+        <li><a href="http://www.rumi-film.at/">Film über Rumi (deutsch, persisch, englisch)</a></li>
+        <li><a href="https://chalice-verlag.de/videos-2/vp-rumi/">Film über die Semâ-Zeremonie der
+            Mevlevi-Derwische 1989 in Zürich (englisch, deutsch)</a></li>
+        <li><a href="http://www.dar-al-masnavi.org/">Ibrahim Gamard: Dâru 'l-Masnavî (persischer Text und
+            kommentierte englische Übersetzung von Passagen aus Mathnawi und Diwan)</a></li>
+        <li><a href="http://www.rumi.org.uk/bibliography.htm">Auswahlbibliographie</a></li>
+      </ul>
+</section>
+<section>
+  <a class="anchor" id="Einzelnachweise"></a>
+      <h2>Einzelnachweise und Anmerkungen</h2>
+      <ol>
+        <li>Franklin Lewis: Rumi: Past and Present, East and West. The Life Teachings and Poetry of Jalâl al-Din
+          Rumi. One World Publications, Oxford 2000, S. 47.</li>
+        <li>Annemarie Schimmel: Rumi - Ich bin Wind und du bist Feuer. Kreuzlingen/München 2003, S. 9.</li>
+        <li>Annemarie Schimmel: Rumi - Ich bin Wind und du bist Feuer, S. 8</li>
+        <li>Wörtl. Übersetzung: Die Juwelen der Geheimnisse und die Erscheinungen des Lichterglanzes.</li>
+        <li>Maulana Dschelaleddin Rumi – Von Allem und vom Einen, aus d. Pers. u. Arab. von Annemarie Schimmel,
+          München 1988, S. 8</li>
+        <li>Yakup Şafak: Mevlânâ’ya Atfedilen “Yine Gel…” Rubâîsine Dair in Tasavvuf ilmî ve akademik araştırma
+          dergisi 24 [2009/2], S. 75–80 [1]</li>
+        <li>Murat Bardakçı: Şoka gel şokaaa!, Habertürk, 28. Dezember 2012; aufgerufen am 22. Juni 2014 [2]</li>
+        <li>Gerhard Riemann (Hrsg.): Dschelalledin Rumi, Offenes Geheimnis. München 1994, S. 42.</li>
+        <li>Archivierte Kopie (Memento des Originals vom 29. Juni 2009) i Info: Der Archivlink wurde automatisch
+          eingesetzt und noch nicht geprüft. Bitte prüfe Original- und Archivlink gemäß Anleitung und entferne
+          dann diesen Hinweis.</li>
+      </ol>
+</section>
+<section>
+  <a class="anchor" id="PDFdownloads"></a>
+      <h2>PDF Downloads</h2>
+      <ul>
+        <li><a href="./PDFs/Polylog-Rumi.pdf" download target="_blank">Philosophie der Liebe bei Jalal ad-Din
+            Rumi (Quelle: Polylog)</a></li>
+      </ul>
+  </section>
+    <section>
+        <a class="anchor" id="Credit"></a>
+        <h2>Hauptkredite und Quellen</h2>
+        <ul>
+            <li> Webdesign (Site, Webseiten, HTML, CSS, Javascript,... Quellcodes, Technik, Design...) :  von <a class="mail" href="mailto:youarcool@yahoo.com">Rami Al-Saadi</a> (2020 ©).</li>
+            <li> Artikeltexte: <a href="https://de.wikipedia.org/wiki/R%C5%ABm%C4%AB">Wikipedia / Rümi</a> (März 2020).</li>
+            <li>Hintergrundfotos: Direkt lizenzierte Nutzung von <a href="https://unsplash.com">Unsplash</a>.</li>
+            <li>Urheberrechte und Eigentum: <a class="mail" href="mailto:youarcool@yahoo.com">Rami Al-Saadi</a>.</li>
+        </ul>
+    </section>
+     </div>
+      </article>
+        <div class="bgimg-1">
+          <div class="bgText"> Dort treffen wir uns.</div>
+        </div>
+      <a id="nachoben" href="#">nach oben ↑</a>
+      <a href="#" class="nachoben2"  style="color:transparent;text-shadow: none;">zurück nach oben</a>
+      </main>
+      <footer class="fg">
+        <nav>
+          <a href="./">Home</a> | <a href="Rumi?#">Rūmī</a> | <a href="Plato">Platon</a> | <a
+            href="Buddha">Buddha</a> | <a href="Socrates">Socrates</a> | <a href="SMRKontaktFormular">Kontakt</a> | <a href="DSE">Impressum-Datenschütz</a> </nav>
+        © 2020 Rami-Al-Saadi. Alle Rechte vorbehalten.<br>
+        <a class="mail" href="mailto:youarcool@yahoo.com">e-mail</a>
+      </footer>
+        <aside class="werbung1Banner werbung2Banner">
+        <p onclick="$('.werbung1Banner').hide(200);">x</p>
+        <a href="https://youtu.be/-EQL88ddk5Q" target="_blank">
+        <div class="container">
+          <img src="./img/Werbung2SpititedAwayChihiro.gif" alt="Spirited Away / Chihiros Reise ins Zauberland - Studio Ghibli" title="Wenn sich einmal die Wege gekreuzt haben, vergisst man das nie. Es kann nur sein, dass man sich nicht daran erinnert." />
+        </div>
+        </a>
+      </aside>
+      <div id="meineCookieZustimmung">
+        <a id="cookieButton">Verstanden</a>
+        <div>Diese Webseite nutzt Cookies. <a href="DSE#cookies"> Mehr info</a></div>
+    </div>
+  </div>
+<div style="text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important;"><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&utm_campaign=000_logo&utm_medium=website&utm_content=footer_img"><img src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png" alt="www.000webhost.com"></a></div><script>function getCookie(t){for(var e=t+"=",n=decodeURIComponent(document.cookie).split(";"),o=0;o<n.length;o++){for(var i=n[o];" "==i.charAt(0);)i=i.substring(1);if(0==i.indexOf(e))return i.substring(e.length,i.length)}return""}getCookie("hostinger")&&(document.cookie="hostinger=;expires=Thu, 01 Jan 1970 00:00:01 GMT;",location.reload());var wordpressAdminBody=document.getElementsByClassName("wp-admin")[0],notification=document.getElementsByClassName("notice notice-success is-dismissible"),hostingerLogo=document.getElementsByClassName("hlogo"),mainContent=document.getElementsByClassName("notice_content")[0];if(null!=wordpressAdminBody&&notification.length>0&&null!=mainContent){var googleFont=document.createElement("link");googleFontHref=document.createAttribute("href"),googleFontRel=document.createAttribute("rel"),googleFontHref.value="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700",googleFontRel.value="stylesheet",googleFont.setAttributeNode(googleFontHref),googleFont.setAttributeNode(googleFontRel);var css="@media only screen and (max-width: 576px) {#main_content {max-width: 320px !important;} #main_content h1 {font-size: 30px !important;} #main_content h2 {font-size: 40px !important; margin: 20px 0 !important;} #main_content p {font-size: 14px !important;} #main_content .content-wrapper {text-align: center !important;}} @media only screen and (max-width: 781px) {#main_content {margin: auto; justify-content: center; max-width: 445px;}} @media only screen and (max-width: 1325px) {.web-hosting-90-off-image-wrapper {position: absolute; max-width: 95% !important;} .notice_content {justify-content: center;} .web-hosting-90-off-image {opacity: 0.3;}} @media only screen and (min-width: 769px) {.notice_content {justify-content: space-between;} #main_content {margin-left: 5%; max-width: 445px;} .web-hosting-90-off-image-wrapper {position: absolute; display: flex; justify-content: center; width: 100%; }} .web-hosting-90-off-image {max-width: 90%;} .content-wrapper {min-height: 454px; display: flex; flex-direction: column; justify-content: center; z-index: 5} .notice_content {display: flex; align-items: center;} * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} .upgrade_button_red_sale{box-shadow: 0 2px 4px 0 rgba(255, 69, 70, 0.2); max-width: 350px; border: 0; border-radius: 3px; background-color: #ff4546 !important; padding: 15px 55px !important; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 600; color: #ffffff;} .upgrade_button_red_sale:hover{color: #ffffff !important; background: #d10303 !important;}",style=document.createElement("style"),sheet=window.document.styleSheets[0];style.styleSheet?style.styleSheet.cssText=css:style.appendChild(document.createTextNode(css)),document.getElementsByTagName("head")[0].appendChild(style),document.getElementsByTagName("head")[0].appendChild(googleFont);var button=document.getElementsByClassName("upgrade_button_red")[0],link=button.parentElement;link.setAttribute("href","https://www.hostinger.com/hosting-starter-offer?utm_source=000webhost&utm_medium=panel&utm_campaign=000-wp"),link.innerHTML='<button class="upgrade_button_red_sale">Go for it</button>',(notification=notification[0]).setAttribute("style","padding-bottom: 0; padding-top: 5px; background-color: #040713; background-size: cover; background-repeat: no-repeat; color: #ffffff; border-left-color: #040713;"),notification.className="notice notice-error is-dismissible";var mainContentHolder=document.getElementById("main_content");mainContentHolder.setAttribute("style","padding: 0;"),hostingerLogo[0].remove();var h1Tag=notification.getElementsByTagName("H1")[0];h1Tag.className="000-h1",h1Tag.innerHTML="Black Friday Prices",h1Tag.setAttribute("style",'color: white; font-family: "Roboto", sans-serif; font-size: 22px; font-weight: 700; text-transform: uppercase;');var h2Tag=document.createElement("H2");h2Tag.innerHTML="Get 90% Off!",h2Tag.setAttribute("style",'color: white; margin: 10px 0 15px 0; font-family: "Roboto", sans-serif; font-size: 60px; font-weight: 700; line-height: 1;'),h1Tag.parentNode.insertBefore(h2Tag,h1Tag.nextSibling);var paragraph=notification.getElementsByTagName("p")[0];paragraph.innerHTML="Get Web Hosting for $0.99/month + SSL Certificate for FREE!",paragraph.setAttribute("style",'font-family: "Roboto", sans-serif; font-size: 16px; font-weight: 700; margin-bottom: 15px;');var list=notification.getElementsByTagName("UL")[0];list.remove();var org_html=mainContent.innerHTML,new_html='<div class="content-wrapper">'+mainContent.innerHTML+'</div><div class="web-hosting-90-off-image-wrapper"><img class="web-hosting-90-off-image" src="https://cdn.000webhost.com/000webhost/promotions/bf-2020-wp-inject-img.png"></div>';mainContent.innerHTML=new_html;var saleImage=mainContent.getElementsByClassName("web-hosting-90-off-image")[0]}</script></body>
+
+</html>
