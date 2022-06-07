@@ -45,6 +45,10 @@
     <meta name="distribution" content="Global" />
     <meta name="rating" content="General" />
     <meta name="revisit-after" content="7 days" />
+    <meta
+      name="google-site-verification"
+      content="gzz54wcOjUV0Y7LFjKNdyvL3PNK2_Ofwt0BH0Lt8nrY"
+    />
     <link rel="shortcut icon" href="indexIcon.ico" />
     <link rel="stylesheet" href="css/default.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
