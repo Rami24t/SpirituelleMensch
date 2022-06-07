@@ -1,4 +1,4 @@
- /* ** ** ** ** ** ** ** ** ** ** ***** ** ** ** ** ** ** ** ** ** ** **
+/* ** ** ** ** ** ** ** ** ** ** ***** ** ** ** ** ** ** ** ** ** ** **
 ** - CSS source code - © 2020 Rami Al-Saadi. Alle Rechte vorbehalten.  **
 ** - CSS source code - © 2020 Rami Al-Saadi.  All rights reserved.     **
  ** ** ** ** ** ** ** ** ** ** ** ***** ** ** ** ** ** ** ** ** ** ** */
@@ -1052,17 +1052,38 @@ i {
     font-weight: bold;
   }
 }
- /* ** ** ** ** ** ** ** ** ** ** ***** ** ** ** ** ** ** ** ** ** ** **
+/* ** ** ** ** ** ** ** ** ** ** ***** ** ** ** ** ** ** ** ** ** ** **
 ** - CSS source code - © 2020 Rami Al-Saadi. Alle Rechte vorbehalten.  **
 ** - CSS source code - © 2020 Rami Al-Saadi.  All rights reserved.     **
  ** ** ** ** ** ** ** ** ** ** ** ***** ** ** ** ** ** ** ** ** ** ** */
 
-img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {display: none;}
+/* img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {display: none;}
 img[alt="www.000webhost.com"] {display: none;}
 html > body > div[style="text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important;"] {z-index: -999999;}
-html > body > div[style="text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important;"] a {display: none;}
+html > body > div[style="text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important;"] a {display: none;} */
 
- /* ** ** ** ** ** ** ** ** ** ** ***** ** ** ** ** ** ** ** ** ** ** **
+/* ** ** ** ** ** ** ** ** ** ** ***** ** ** ** ** ** ** ** ** ** ** **
 ** - CSS source code - © 2020 Rami Al-Saadi. Alle Rechte vorbehalten.  **
 ** - CSS source code - © 2020 Rami Al-Saadi.  All rights reserved.     **
+ ** ** ** ** ** ** ** ** ** ** ** ***** ** ** ** ** ** ** ** ** ** ** */
+
+/* ** ** ** ** ** ** ** ** ** ** ***** ** ** ** ** ** ** ** ** ** ** **
+** - CSS source code - © 2022 Rami Al-Saadi. Alle Rechte vorbehalten.  **
+** - CSS source code - © 2022 Rami Al-Saadi.  All rights reserved.     **
+ ** ** ** ** ** ** ** ** ** ** ** ***** ** ** ** ** ** ** ** ** ** ** */
+
+@media only screen and (min-width: 902px) {
+  nav ul::before {
+    content: "<";
+    opacity: 0.18;
+  }
+  nav ul::after {
+    content: ">";
+    opacity: 0.18;
+  }
+}
+
+/* ** ** ** ** ** ** ** ** ** ** ***** ** ** ** ** ** ** ** ** ** ** **
+** - CSS source code - © 2022 Rami Al-Saadi. Alle Rechte vorbehalten.  **
+** - CSS source code - © 2022 Rami Al-Saadi.  All rights reserved.     **
  ** ** ** ** ** ** ** ** ** ** ** ***** ** ** ** ** ** ** ** ** ** ** */
