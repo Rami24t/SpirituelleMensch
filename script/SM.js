@@ -389,7 +389,10 @@ document.getElementById("nachoben").style.opacity = "0";
 		return false;
 	};
 
-	removejscssfile("https://a.opmnstr.com/app/js/api.min.js", "js");
-	removejscssfile("https://static.doubleclick.net/instream/ad_status.js", "js");
+	// removejscssfile("https://a.opmnstr.com/app/js/api.min.js", "js");
+	// removejscssfile("https://static.doubleclick.net/instream/ad_status.js", "js");
+
+
+	$(".c-yr").append(" - " + new Date().getFullYear() + " ");
 
 });
