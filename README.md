@@ -6,3 +6,8 @@ A website that I designed and coded using HTML5, CSS3, and Javascript.
 The text content in the website is mostly from Wikipedia.
 
 Live: https://rami24t.github.io/SpirituelleMensch/
+
+
+# Snapshot:
+
+<img src="snapshot1.jpg">
