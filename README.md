@@ -10,4 +10,4 @@ Live: https://rami24t.github.io/SpirituelleMensch/
 
 # Snapshot:
 
-<img src="snapshot1.jpg">
+<img src="Snapshot1.jpg">
