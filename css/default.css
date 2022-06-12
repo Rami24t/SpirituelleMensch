@@ -1095,12 +1095,12 @@ html > body > div[style="text-align: right;position: fixed;z-index:9999999;botto
   bottom: 0%;
   right: 0%;
   left: 0%;
-  opacity: 0.3;
+  opacity: 0.2;
   z-index: 0;
-  animation: top-img2-anim 5s linear 1s 4;
+  animation: top-img2-anim 17s ease-in-out 1s 2 both alternate;
 }
 
-@keyframes top-img2 {
+@keyframes top-img2-anim {
   100% {
     opacity: 1;
   }

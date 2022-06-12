@@ -405,7 +405,7 @@ document.getElementById("nachoben").style.opacity = "0";
 	else if(fileName[0].startsWith("Rumi"))
     $('#top-img2')[0].src="./img2/noah-silliman--UUGr3txNuc-unsplash.jpg";
 	else if(fileName[0].startsWith("Plato"))
-    $('#top-img2')[0].src="img2/chandan-chaurasia-g1aIBDpbsLA-unsplash.jpg";
+    $('#top-img2')[0].src="img2/pexels-pixabay-220759.jpg";
 	else if(fileName[0].startsWith("Buddha"))
     $('#top-img2')[0].src="./img2/pexels-pixabay-289586.jpg";
 	else if(fileName[0].startsWith("Socrates"))
