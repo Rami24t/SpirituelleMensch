@@ -398,4 +398,6 @@ document.getElementById("nachoben").style.opacity = "0";
 	// $('header figure').style="position: relative";
 	// $('header figure').append('<video autoplay muted loop id="top-video"><source src="./videos/Golden-Mandala.mov" type="video/mp4"></video>');
 
+	$('header figure a').prepend('<img id="top-img2" src="./img2/zenad-nabil-sunny-sky-unsplash.jpg" alt="sunny sky image"/>');
+	
 });

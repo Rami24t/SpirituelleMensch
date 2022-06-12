@@ -90,12 +90,7 @@
           <a href="Rumi">Rūmī</a> | <a href="Plato">Platon</a> |
           <a href="Buddha">Buddha</a> | <a href="Socrates">Socrates</a>
           <figure>
-            <a href="img/teddy-scene.jpg" download
-              ><img
-                id="top-img2"
-                src="./img2/zenad-nabil-sunny-sky-unsplash.jpg"
-                alt="sunny sky image"
-              />
+            <a href="img/teddy-scene.jpg" download>
               <img src="./img/teddy-scene.jpg" alt="teddy scene image" />
             </a>
           </figure>
