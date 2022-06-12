@@ -399,19 +399,18 @@ document.getElementById("nachoben").style.opacity = "0";
 	// $('header figure').append('<video autoplay muted loop id="top-video"><source src="./videos/Golden-Mandala.mov" type="video/mp4"></video>');
 
 
-	
+	console.log(fileName[0]);
 	$('header figure a').prepend('<img id="top-img2" src="./img2/zenad-nabil-sunny-sky-unsplash.jpg" alt="sunny sky image"/>');
-	if(fileName[0] == "")
-    $('#top-img2').src="./img2/zenad-nabil-sunny-sky-unsplash.jpg";
-	else if(fileName[0] == "Rumi")
-	"./img2/noah-silliman--UUGr3txNuc-unsplash.jpg";
-	else if(fileName[0] == "Platon")
-    "img2/chandan-chaurasia-g1aIBDpbsLA-unsplash.jpg";
-	else if(fileName[0] == "Buddha")
-	"./img2/pexels-pixabay-289586.jpg";
-	else if(fileName[0] == "Socrates")
-	"./img2/heping-LZW0kGvg5jo-unsplash.jpg";
-    endif
+	if(fileName[0] === "")
+    $('#top-img2')[0].src="./img2/zenad-nabil-sunny-sky-unsplash.jpg";
+	else if(fileName[0].startsWith("Rumi"))
+    $('#top-img2')[0].src="./img2/noah-silliman--UUGr3txNuc-unsplash.jpg";
+	else if(fileName[0].startsWith("Plato"))
+    $('#top-img2')[0].src="img2/chandan-chaurasia-g1aIBDpbsLA-unsplash.jpg";
+	else if(fileName[0].startsWith("Buddha"))
+    $('#top-img2')[0].src="./img2/pexels-pixabay-289586.jpg";
+	else if(fileName[0].startsWith("Socrates"))
+    $('#top-img2')[0].src="./img2/heping-LZW0kGvg5jo-unsplash.jpg";
 
-	
+
 });
