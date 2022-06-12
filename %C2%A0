@@ -17,7 +17,7 @@
     <meta name="copyright" content="Rami Al-Saadi" />
     <meta name="language" content="de" />
     <meta name="robots" content="index,follow" />
-    <meta name="revised" content="Thursday, March 5th, 2020, 2:15 pm" />
+    <meta name="revised" content="Thursday, June 12th, 2022, 9:19 am" />
     <meta
       name="abstract"
       content="Spirituelle Menschen, wer sind sie und was haben sie versucht, uns zu sagen?"
@@ -91,8 +91,13 @@
           <a href="Buddha">Buddha</a> | <a href="Socrates">Socrates</a>
           <figure>
             <a href="img/teddy-scene.jpg" download
-              ><img src="img/teddy-scene.jpg" alt="teddy scene image"
-            /></a>
+              ><img
+                id="top-img2"
+                src="./img2/zenad-nabil-sunny-sky-unsplash.jpg"
+                alt="sunny sky image"
+              />
+              <img src="./img/teddy-scene.jpg" alt="teddy scene image" />
+            </a>
           </figure>
         </nav>
       </header>
