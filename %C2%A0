@@ -225,36 +225,6 @@
       </div>
     </div>
 
-    <script>
-      var timesClicked = 0;
-      $(".bgimg-11").click(function () {
-        timesClicked++;
-        if (timesClicked % 2 === 0) {
-          $(this).css(
-            "background-image",
-            "url(https://source.unsplash.com/random/" +
-              window.innerWidth +
-              "x" +
-              window.innerHeight * 0.9 +
-              "?universe?time=" +
-              new Date().getTime() +
-              ")"
-          );
-        } else {
-          $(this).css(
-            "background-image",
-            "url(https://source.unsplash.com/random/" +
-              window.innerWidth +
-              1 +
-              "x" +
-              window.innerHeight * 0.9 +
-              1 +
-              "?universe?time=" +
-              new Date().getTime() +
-              ")"
-          );
-        }
-      });
-    </script>
+    <script></script>
   </body>
 </html>

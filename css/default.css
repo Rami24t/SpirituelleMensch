@@ -319,6 +319,10 @@ img {
   cursor: url("../buddhaIcon.png"), auto;
 }
 
+/* #home .bgimg-10 {
+  cursor: url("../cursorsT/FireCursor1.ani"), auto;
+} */
+
 /*vorgrund*/
 .fg {
   padding: 3% 3% 0.5% 3%;

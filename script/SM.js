@@ -398,7 +398,7 @@ document.getElementById("nachoben").style.opacity = "0";
 	// $('header figure').style="position: relative";
 	// $('header figure').append('<video autoplay muted loop id="top-video"><source src="./videos/Golden-Mandala.mov" type="video/mp4"></video>');
 
-
+{
 	$('header figure a').prepend('<img id="top-img2" src="./img2/zenad-nabil-sunny-sky-unsplash.jpg" alt="sunny sky image"/>');
 	if(fileName[0] === "")
     $('#top-img2')[0].src="./img2/zenad-nabil-sunny-sky-unsplash.jpg";
@@ -410,6 +410,44 @@ document.getElementById("nachoben").style.opacity = "0";
     $('#top-img2')[0].src="./img2/pexels-pixabay-289586.jpg";
 	else if(fileName[0].startsWith("Socrates"))
     $('#top-img2')[0].src="./img2/heping-LZW0kGvg5jo-unsplash.jpg";
+}
 
+{
+		$('body div[class^="bgimg-"]').mousemove(function (event) {
+		var containerWidth = $(this).innerWidth(),
+		mousePositionX = event.pageX / containerWidth * 100
+		$(this).css('background-position-x', mousePositionX + '%');
+	  });
+	}
+
+{
+	  let timesClicked = 0;
+      $('body div[class^="bgimg-"]').click(function () {
+        timesClicked++;
+        if (timesClicked % 2 === 0) {
+          $(this).css(
+            "background-image",
+            "url(https://source.unsplash.com/random/" +
+              window.innerWidth +
+              "x" +
+              window.innerHeight*0.9 +
+              "?universe?time=" +
+              new Date().getTime() +
+              ")"
+          );
+        } else {
+          $(this).css(
+            "background-image",
+            "url(https://source.unsplash.com/random/" +
+              window.innerWidth +
+              "x" +
+              window.innerHeight*0.95 +
+              "?universe?time=" +
+              new Date().getTime() +
+              ")"
+          );
+        }
+      });
+	}
 
 });
