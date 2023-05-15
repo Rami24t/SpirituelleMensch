@@ -12,7 +12,7 @@ Live: https://rami24t.github.io/SpirituelleMensch/
 
 <img src="Snapshot1.jpg">
 
-![SM1](https://github.com/Rami24t/SpirituelleMensch/assets/103028944/8720a5b6-65d4-4344-b2ad-a7c96898a410)
+![SM2](https://github.com/Rami24t/SpirituelleMensch/assets/103028944/beeaf750-6472-430a-a159-02fcf3afc46c)
 
 ![SM3](https://github.com/Rami24t/SpirituelleMensch/assets/103028944/f9736050-b619-40b0-98c9-50f6c15d750d)
 
