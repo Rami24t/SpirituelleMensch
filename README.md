@@ -12,9 +12,8 @@ Live: https://rami24t.github.io/SpirituelleMensch/
 
 <img src="Snapshot1.jpg">
 
-![SM2](https://github.com/Rami24t/SpirituelleMensch/assets/103028944/beeaf750-6472-430a-a159-02fcf3afc46c)
+![Screenshot 2023-05-15 at 21-19-02 Spirituelle Menschen](https://github.com/Rami24t/SpirituelleMensch/assets/103028944/2ab08861-3d53-4bb0-87f9-88cc2424db41)
 
 ![SM3](https://github.com/Rami24t/SpirituelleMensch/assets/103028944/f9736050-b619-40b0-98c9-50f6c15d750d)
 
-![Screenshot 2023-05-15 at 21-19-02 Spirituelle Menschen](https://github.com/Rami24t/SpirituelleMensch/assets/103028944/2ab08861-3d53-4bb0-87f9-88cc2424db41)
 
