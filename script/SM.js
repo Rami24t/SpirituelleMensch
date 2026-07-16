@@ -31,31 +31,30 @@ $(document).ready(function () {
 		$("body")[0].children[2].remove();
 		$("body")[0].children[2].remove();
 		if(fileName[0]=="")
-		    $("body")[0].children[2].remove();
+			$("body")[0].children[2].remove();
 		else
-        	$("body")[0].children[1].remove();
+			$("body")[0].children[1].remove();
 	}
 	clearBody(); */
 
-{
-  let prevScrollpos = window.pageYOffset;
-  window.onscroll = function() {
-    let currentScrollPos = window.pageYOffset;
-if(currentScrollPos>1200)
-{
-      if ( (prevScrollpos > currentScrollPos) || (currentScrollPos > 8480) ) {
-        document.getElementById("nachoben").style.opacity = "0.45";
-      }
-            else {
-        document.getElementById("nachoben").style.opacity = "0.1";
-      }
-      prevScrollpos = currentScrollPos;
-}
-else
-document.getElementById("nachoben").style.opacity = "0";
+	{
+		let prevScrollpos = window.pageYOffset;
+		window.onscroll = function () {
+			let currentScrollPos = window.pageYOffset;
+			if (currentScrollPos > 1200) {
+				if ((prevScrollpos > currentScrollPos) || (currentScrollPos > 8480)) {
+					document.getElementById("nachoben").style.opacity = "0.45";
+				}
+				else {
+					document.getElementById("nachoben").style.opacity = "0.1";
+				}
+				prevScrollpos = currentScrollPos;
+			}
+			else
+				document.getElementById("nachoben").style.opacity = "0";
 			return false;
-}
-}
+		}
+	}
 
 	$("#cookieButton").click(function () {
 		console.log('Einverstanden');
@@ -344,37 +343,37 @@ document.getElementById("nachoben").style.opacity = "0";
 	document.addEventListener('keydown', function (event) {
 		pressedKey = event.keyCode;
 		console.log(pressedKey);
-  let fieldItem = $('body form fieldset *');
-  if(!(fieldItem.is(':focus')))
-		switch (event.keyCode) {
-			case 37:
-				navigateLeft();
-				break;
-			case 39:
-				navigateRight();
-				break;
-			case 72:
-				window.location.href = './';
-				break;
-			case 66:
-				window.location.href = './Buddha';
-				break;
-			case 82:
-				window.location.href = './Rumi';
-				break;
-			case 80:
-				window.location.href = './Plato';
-				break;
-			case 83:
-				window.location.href = './Socrates';
-				break;
-			case 75:
-				window.location.href = './SMRKontaktFormular';
-				break;
-			case 65:
-				window.location.href = './About';
-				break;
-		}
+		let fieldItem = $('body form fieldset *');
+		if (!(fieldItem.is(':focus')))
+			switch (event.keyCode) {
+				case 37:
+					navigateLeft();
+					break;
+				case 39:
+					navigateRight();
+					break;
+				case 72:
+					window.location.href = './';
+					break;
+				case 66:
+					window.location.href = './Buddha';
+					break;
+				case 82:
+					window.location.href = './Rumi';
+					break;
+				case 80:
+					window.location.href = './Plato';
+					break;
+				case 83:
+					window.location.href = './Socrates';
+					break;
+				case 75:
+					window.location.href = './SMRKontaktFormular';
+					break;
+				case 65:
+					window.location.href = './About';
+					break;
+			}
 	});
 
 
@@ -398,33 +397,34 @@ document.getElementById("nachoben").style.opacity = "0";
 	// $('header figure').style="position: relative";
 	// $('header figure').append('<video autoplay muted loop id="top-video"><source src="./videos/Golden-Mandala.mov" type="video/mp4"></video>');
 
-{
-	$('header figure a').prepend('<img id="top-img2" src="./img2/zenad-nabil-sunny-sky-unsplash.jpg" alt="sunny sky image"/>');
-	if(fileName[0] === "")
-    $('#top-img2')[0].src="./img2/zenad-nabil-sunny-sky-unsplash.jpg";
-	else if(fileName[0].startsWith("Rumi"))
-    $('#top-img2')[0].src="./img2/noah-silliman--UUGr3txNuc-unsplash.jpg";
-	else if(fileName[0].startsWith("Plato"))
-    $('#top-img2')[0].src="img2/pexels-pixabay-220759.jpg";
-	else if(fileName[0].startsWith("Buddha"))
-    $('#top-img2')[0].src="./img2/pexels-pixabay-289586.jpg";
-	else if(fileName[0].startsWith("Socrates"))
-    $('#top-img2')[0].src="./img2/heping-LZW0kGvg5jo-unsplash.jpg";
-}
-
-{
-		$('body div[class^="bgimg-"]').mousemove(function (event) {
-		var containerWidth = $(this).innerWidth(),
-		mousePositionX = event.pageX / containerWidth * 100
-		$(this).css('background-position-x', mousePositionX + '%');
-	  });
+	{
+		$('header figure a').prepend('<img id="top-img2" src="./img2/zenad-nabil-sunny-sky-unsplash.jpg" alt="sunny sky image"/>');
+		if (fileName[0] === "")
+			$('#top-img2')[0].src = "./img2/zenad-nabil-sunny-sky-unsplash.jpg";
+		else if (fileName[0].startsWith("Rumi"))
+			$('#top-img2')[0].src = "./img2/noah-silliman--UUGr3txNuc-unsplash.jpg";
+		else if (fileName[0].startsWith("Plato"))
+			$('#top-img2')[0].src = "img2/pexels-pixabay-220759.jpg";
+		else if (fileName[0].startsWith("Buddha"))
+			$('#top-img2')[0].src = "./img2/pexels-pixabay-289586.jpg";
+		else if (fileName[0].startsWith("Socrates"))
+			$('#top-img2')[0].src = "./img2/heping-LZW0kGvg5jo-unsplash.jpg";
 	}
 
-{
-	  let timesClicked = 0;
-      $('body div[class^="bgimg-"]').click(function () {
-        timesClicked++;
-        if (timesClicked % 2 === 0) {
+	{
+		$('body div[class^="bgimg-"]').mousemove(function (event) {
+			var containerWidth = $(this).innerWidth(),
+				mousePositionX = event.pageX / containerWidth * 100
+			$(this).css('background-position-x', mousePositionX + '%');
+		});
+	}
+
+
+	{
+		let timesClicked = 0;
+		$('body div[class^="bgimg-"]').click(function () {
+			timesClicked++;
+	 /* if (timesClicked % 2 === 0) {
           $(this).css(
             "background-image",
             "url(https://source.unsplash.com/random/" +
@@ -435,19 +435,24 @@ document.getElementById("nachoben").style.opacity = "0";
               new Date().getTime() +
               ")"
           );
-        } else {
-          $(this).css(
-            "background-image",
-            "url(https://source.unsplash.com/random/" +
-              window.innerWidth +
-              "x" +
-              window.innerHeight*0.95 +
-              "?universe?time=" +
-              new Date().getTime() +
-              ")"
-          );
-        }
-      });
+        } else ... window.innerHeight*0.95 + ... */
+			const element = this;
+			const keyWord = "universe";
+			let width = Math.floor(window.innerWidth);
+			let height = (timesClicked % 2 === 0) ?
+				Math.floor(window.innerHeight * 0.9) :
+				Math.floor(window.innerHeight * 0.95);
+			const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(keyWord)}?width=${width}&height=${height}&nologo=true&model=flux&enhance=true&seed=${timesClicked}${Math.floor(Math.random() * 10000)}`;
+			const img = new Image();
+			img.onload = () => {
+				element.style.backgroundImage = `url("${url}")`;
+			};
+			img.onerror = () => {
+				console.error("Failed to load image from Pollinations");
+			};
+			img.src = url;
+		});
 	}
+
 
 });

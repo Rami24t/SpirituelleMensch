@@ -229,30 +229,37 @@
       var timesClicked = 0;
       $(".bgimg-11").click(function () {
         timesClicked++;
-        if (timesClicked % 2 === 0) {
-          $(this).css(
-            "background-image",
-            "url(https://source.unsplash.com/random/" +
-              window.innerWidth +
-              "x" +
-              window.innerHeight * 0.9 +
-              "?universe?time=" +
-              new Date().getTime() +
-              ")"
-          );
-        } else {
-          $(this).css(
-            "background-image",
-            "url(https://source.unsplash.com/random/" +
-              window.innerWidth +
-              "x" +
-              window.innerHeight * 0.9 +
-              1 +
-              "?universe?time=" +
-              new Date().getTime() +
-              ")"
-          );
-        }
+/*      if (timesClicked % 2 === 0) {
+//        $(this).css(
+//          "background-image",
+//          "url(https://source.unsplash.com/random/" +
+//            window.innerWidth +
+//            "x" +
+//              window.innerHeight * 0.9 +
+//            "?universe?time=" +
+//            new Date().getTime() +
+//            ")"
+//        );
+//      } else ... * 0.9 + 1 + ... */
+        const element = this;
+        const keyWord = "universe";
+        // Alternate on each click
+        const heightAddition = timesClicked % 2 === 0 ? 0 : 1;
+        const width = Math.floor(window.innerWidth);
+        const height = Math.floor(window.innerHeight * 0.9 + heightAddition);
+          
+        // Pollinations endpoint
+        const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(keyWord)}?width=${width}&height=${height}&nologo=true&model=flux&enhance=true&seed=${timesClicked}${Math.floor(Math.random() * 10000)}`;
+
+        // Preload image before applying
+        const img = new Image();
+        img.onload = () => {
+              element.style.backgroundImage = `url("${url}")`;
+        };
+        img.onerror = () => {
+              console.error("Failed to load image from Pollinations");
+        };
+        img.src = url;
       });
     </script>
   </body>

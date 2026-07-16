@@ -4,22 +4,26 @@
  ** ** ** ** ** ** ** ** ** ** ** ***** ** ** ** ** ** ** ** ** ** ** */
 /*SM Fonts*/
 @import "https://fonts.googleapis.com/css?family=Roboto+Mono:100";
+
 @font-face {
   font-family: SMzitat;
   src: url("../Fonts/Kalam/Kalam-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
+
 @font-face {
   font-family: SMtitel;
   src: url("../Fonts/Akronim/Akronim-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
+
 @font-face {
   font-family: SMtext;
   src: url("../Fonts/Vollkorn/Vollkorn-SemiBold.ttf") format("truetype");
 }
+
 @font-face {
   font-family: SMtext;
   src: url("../Fonts/Vollkorn/Vollkorn-Bold.ttf") format("truetype");
@@ -38,6 +42,7 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
+
 /* img{
   min-width: 100%;
   height: auto;
@@ -59,17 +64,21 @@ body#DSE main {
   text-shadow: none;
   font-size: smaller;
 }
+
 body#DSE main h2#Titleh2 {
   font-family: "SMText";
   font-size: xx-large;
   text-shadow: none;
 }
+
 body#DSE main p::first-letter {
   font: inherit;
 }
+
 body#DSE main p span {
   color: #ff0000ad;
 }
+
 body#DSE img,
 body#DSE main p {
   animation: none;
@@ -81,6 +90,7 @@ h1 {
   margin-top: -18px;
   text-shadow: -15px 5px 20px #fffad5, 0 0 5px rgba(255, 166, 0, 0.781);
 }
+
 #Titleh2 {
   font-family: "SMtitel", "SMtext", Verdana, Arial, sans-serif;
   font-size: 3rem;
@@ -88,18 +98,22 @@ h1 {
   text-align: center;
   margin-top: -10px;
 }
+
 /* Header h1 Toph1 Animation*/
 @keyframes animateH1 {
   0% {
     background-position: -500%;
   }
+
   50% {
     background-position: 0%;
   }
+
   100% {
     background-position: 500%;
   }
 }
+
 header h1 {
   font-size: 3.5rem;
   background: linear-gradient(90deg, #fff4ad, rgb(165, 42, 42), #fff4ad);
@@ -112,9 +126,11 @@ header h1 {
   transition: all 0.2s;
   margin-top: 10px;
 }
+
 header h1:hover {
   transform: scale(1.01);
 }
+
 a.anchor {
   display: block;
   position: relative;
@@ -135,27 +151,32 @@ div#nav {
   transition: all 2s 2s;
   transform: translateY(-6px) scaleY(0.74);
 }
+
 div#nav:hover {
   transform: translateY(-1px) scaleY(1);
   transition: all 1s 0.2s;
 }
+
 #topnav {
   margin-top: 5px;
   margin-right: 20px;
   z-index: 100;
 }
+
 #topnav ul {
   margin: 0;
   padding: 0;
   text-align: center;
   cursor: initial;
 }
+
 #topnav li {
   margin: 0 5px 10px 0;
   padding: 0;
   list-style: none;
   display: inline-block;
 }
+
 #topnav a {
   padding: 3px 12px;
   text-decoration: none;
@@ -166,6 +187,7 @@ div#nav:hover {
   transition: all 0.3s;
   font-size: 101.4%;
 }
+
 #topnav li:last-of-type a {
   border-right: none;
 }
@@ -176,15 +198,18 @@ div#nav:hover {
   background-color: rgba(179, 79, 54, 0.1);
   border-radius: 38px;
 }
+
 #topnav .current a {
   background: rgb(199, 122, 50);
   color: rgb(255, 254, 240);
   border-radius: 38px;
 }
+
 #topnav ul li:first-of-type a:hover,
 #topnav ul li:first-of-type a {
   display: none;
 }
+
 @media screen and (max-width: 900px) {
   div#nav {
     border: none;
@@ -192,15 +217,18 @@ div#nav:hover {
     right: 0px;
     transform: scaleY(1) translateY(0%);
   }
+
   #topnav a {
     border-right: none;
     display: block;
     padding: 5px 5px 5px 32px;
     text-align: left;
   }
+
   header h1 {
     margin-top: 26px;
   }
+
   #topnav {
     margin-top: -6px;
     margin-right: -50px;
@@ -209,14 +237,15 @@ div#nav:hover {
     z-index: 100;
     transition: all 0.3s;
   }
+
   #topnav:hover {
     margin-top: 1px;
     margin-right: 1px;
   }
+
   #topnav ul {
     border: solid 1px rgb(190, 147, 111);
-    background: rgba(255, 249, 212, 0.945) url("../img/index.png") no-repeat
-      10px 11px;
+    background: rgba(255, 249, 212, 0.945) url("../img/index.png") no-repeat 10px 11px;
     border-radius: 5px;
     box-shadow: 0 1px 2px rgba(104, 66, 23, 0.384);
     width: 160px;
@@ -227,14 +256,17 @@ div#nav:hover {
     right: 0;
     transition: all 1s;
   }
+
   #topnav li {
     display: none;
     margin: 0;
     transition: all 0.3s;
   }
+
   #topnav .current {
     display: block;
   }
+
   #topnav ul li:first-of-type a:hover,
   #topnav ul li:first-of-type a {
     display: block;
@@ -243,27 +275,33 @@ div#nav:hover {
     color: rgba(128, 122, 115, 0.7);
     font-weight: normal;
   }
+
   #topnav ul li a:hover {
     background-color: rgba(179, 79, 54, 0.4);
     border-radius: 6px;
     color: #ffffd6;
   }
+
   #topnav .current a {
     background: none;
     color: rgba(165, 104, 55, 0.829);
   }
+
   #topnav ul:hover {
     padding-bottom: 3px;
     background-color: rgba(255, 249, 212, 0.99);
   }
+
   #topnav ul:hover li {
     margin: 0 0 5px;
     display: block;
   }
+
   #topnav ul:hover .current {
     background: url("../img/check2.png") no-repeat 10px 7px;
   }
 }
+
 /* ------------------- */
 
 figure {
@@ -271,15 +309,18 @@ figure {
   position: relative;
   overflow: hidden;
 }
+
 /* blockquote font*/
 blockquote {
   font-family: "SMzitat", Verdana, Arial, sans-serif;
   transition: all 0.8s;
   transform: translateY(-1px);
 }
+
 header {
   overflow: hidden;
 }
+
 header blockquote:hover {
   transform: translateY(-2px) skewX(-6deg) scale(1.1);
   background-color: rgba(255, 255, 240, 0.075);
@@ -294,27 +335,34 @@ p,
 img {
   animation: zoom 0.2s ease;
 }
+
 @keyframes zoom {
   0% {
     transform: scale(0) rotate(-45deg);
   }
+
   100% {
     transform: scale(1) rotate(0deg);
   }
 }
+
 /*cursors*/
 #socrates {
   cursor: url("../socratesIcon.png"), auto;
 }
+
 #plato {
   cursor: url("../platoIcon.png"), auto;
 }
+
 #rumi {
   cursor: url("../rumiIcon.png"), auto;
 }
+
 #home {
   cursor: url("../indexCursur.png"), auto;
 }
+
 #buddha {
   cursor: url("../buddhaIcon.png"), auto;
 }
@@ -327,9 +375,11 @@ img {
 .fg {
   padding: 3% 3% 0.5% 3%;
 }
+
 footer.fg {
   padding: 1% 3% 0% 3%;
 }
+
 /* scroll bg=hintergrund*/
 .bgimg-1,
 .bgimg-2,
@@ -353,51 +403,76 @@ footer.fg {
   margin: 0;
   padding: 0;
 }
+
+/* bgimgs FIX (Replaced the depricated Unsplash Image API) in 2026 */
 .bgimg-1 {
-  background-image: url("https://source.unsplash.com/random/1218x864?rumi");
+  /* background-image: url("https://source.unsplash.com/random/1218x864?rumi"); */
+  background-image: url("https://image.pollinations.ai/prompt/rumi?width=1218&height=864&nologo=true&model=flux&enhance=true&seed=1");
   min-height: 90vh;
 }
+
 .bgimg-2 {
-  background-image: url("https://source.unsplash.com/random/1206x856?art");
+  /* background-image: url("https://source.unsplash.com/random/1206x856?art"); */
+  background-image: url("https://image.pollinations.ai/prompt/spiritual?width=1206&height=856&nologo=true&model=flux&enhance=true&seed=2");
   min-height: 400px;
 }
+
 .bgimg-3 {
-  background-image: url("https://source.unsplash.com/random/1216x863?art");
+  /* background-image: url("https://source.unsplash.com/random/1216x863?art"); */
+  background-image: url("https://image.pollinations.ai/prompt/spiritual?width=1216&height=863&nologo=true&model=flux&enhance=true&seed=3");
   min-height: 410px;
 }
+
 .bgimg-4 {
-  background-image: url("https://source.unsplash.com/random/1215x863?art");
+  /* background-image: url("https://source.unsplash.com/random/1215x863?art"); */
+  background-image: url("https://image.pollinations.ai/prompt/spiritual?width=1215&height=863&nologo=true&model=flux&enhance=true&seed=4");
   min-height: 300px;
 }
+
 .bgimg-5 {
-  background-image: url("https://source.unsplash.com/random/1217x863?buddha");
+  /* background-image: url("https://source.unsplash.com/random/1217x863?buddha"); */
+  background-image: url("https://image.pollinations.ai/prompt/buddha?width=1217&height=863&nologo=true&model=flux&enhance=true&seed=5");
   min-height: 210px;
 }
+
 .bgimg-6 {
-  background-image: url("https://source.unsplash.com/random/1216x864?buddha");
+  /* background-image: url("https://source.unsplash.com/random/1216x864?buddha"); */
+  background-image: url("https://image.pollinations.ai/prompt/buddha?width=1216&height=864&nologo=true&model=flux&enhance=true&seed=6");
   min-height: 90vh;
 }
+
 .bgimg-7 {
-  background-image: url("https://source.unsplash.com/random/1216x862?art");
+  /* background-image: url("https://source.unsplash.com/random/1216x862?art"); */
+  background-image: url("https://image.pollinations.ai/prompt/spiritual?width=1216&height=862&nologo=true&model=flux&enhance=true&seed=7");
   min-height: 410px;
 }
+
 .bgimg-8 {
-  background-image: url("https://source.unsplash.com/random/1214x862?art");
+  /* background-image: url("https://source.unsplash.com/random/1214x862?art"); */
+  background-image: url("https://image.pollinations.ai/prompt/spiritual?width=1214&height=862&nologo=true&model=flux&enhance=true&seed=8");
   min-height: 90vh;
 }
+
 .bgimg-9 {
-  background-image: url("https://source.unsplash.com/random/1215x863?art");
+  /* background-image: url("https://source.unsplash.com/random/1215x863?art"); */
+  background-image: url("https://image.pollinations.ai/prompt/spiritual?width=1215&height=863&nologo=true&model=flux&enhance=true&seed=9");
   min-height: 210px;
 }
+
 .bgimg-10 {
-  background-image: url("https://source.unsplash.com/random/1215x863?fire");
+  /* background-image: url("https://source.unsplash.com/random/1215x863?fire"); */
+  background-image: url("https://image.pollinations.ai/prompt/fire?width=1215&height=863&nologo=true&model=flux&enhance=true&seed=10");
   min-height: 210px;
 }
+
 .bgimg-11 {
-  background-image: url("https://source.unsplash.com/random/1215x863?universe");
+  /* background-image: url("https://source.unsplash.com/random/1215x863?universe"); */
+  background-image: url("https://image.pollinations.ai/prompt/universe?width=1215&height=863&nologo=true&model=flux&enhance=true&seed=11");
   min-height: 90vh;
 }
+
 @media only screen and (max-device-width: 800px) {
+
   .bgimg-1,
   .bgimg-2,
   .bgimg-3,
@@ -412,75 +487,118 @@ footer.fg {
     background-attachment: scroll;
   }
 }
+
 @media screen and (max-device-width: 600px) {
   .bgimg-1 {
-    background-image: url("https://source.unsplash.com/random/618x864?rumi");
+    /* background-image: url("https://source.unsplash.com/random/618x864?rumi"); */
+    background-image: url("https://image.pollinations.ai/prompt/rumi?width=618&height=864&nologo=true&model=flux&enhance=true&seed=122");
   }
+
   .bgimg-2 {
-    background-image: url("https://source.unsplash.com/random/606x856?art");
+    /* background-image: url("https://source.unsplash.com/random/606x856?art"); */
+    background-image: url("https://image.pollinations.ai/prompt/spiritual?width=606&height=856&nologo=true&model=flux&enhance=true&seed=221");
   }
+
   .bgimg-3 {
-    background-image: url("https://source.unsplash.com/random/616x863?art");
+    /* background-image: url("https://source.unsplash.com/random/616x863?art"); */
+    background-image: url("https://image.pollinations.ai/prompt/spiritual?width=616&height=863&nologo=true&model=flux&enhance=true&seed=320");
   }
+
   .bgimg-4 {
-    background-image: url("https://source.unsplash.com/random/615x863?art");
+    /* background-image: url("https://source.unsplash.com/random/615x863?art"); */
+    background-image: url("https://image.pollinations.ai/prompt/spiritual?width=615&height=863&nologo=true&model=flux&enhance=true&seed=419");
   }
+
   .bgimg-5 {
-    background-image: url("https://source.unsplash.com/random/617x863?buddha");
+    /* background-image: url("https://source.unsplash.com/random/617x863?buddha"); */
+    background-image: url("https://image.pollinations.ai/prompt/buddha?width=617&height=863&nologo=true&model=flux&enhance=true&seed=518");
   }
+
   .bgimg-6 {
-    background-image: url("https://source.unsplash.com/random/616x864?buddha");
+    /* background-image: url("https://source.unsplash.com/random/616x864?buddha"); */
+    background-image: url("https://image.pollinations.ai/prompt/buddha?width=616&height=864&nologo=true&model=flux&enhance=true&seed=617");
   }
+
   .bgimg-7 {
-    background-image: url("https://source.unsplash.com/random/616x862?art");
+    /* background-image: url("https://source.unsplash.com/random/616x862?art"); */
+    background-image: url("https://image.pollinations.ai/prompt/spiritual?width=616&height=862&nologo=true&model=flux&enhance=true&seed=716");
   }
+
   .bgimg-8 {
-    background-image: url("https://source.unsplash.com/random/614x862?art");
+    /* background-image: url("https://source.unsplash.com/random/614x862?art"); */
+    background-image: url("https://image.pollinations.ai/prompt/spiritual?width=614&height=862&nologo=true&model=flux&enhance=true&seed=815");
   }
+
   .bgimg-9 {
-    background-image: url("https://source.unsplash.com/random/615x863?art");
+    /* background-image: url("https://source.unsplash.com/random/615x863?art"); */
+    background-image: url("https://image.pollinations.ai/prompt/spiritual?width=615&height=863&nologo=true&model=flux&enhance=true&seed=9134");
   }
+
   .bgimg-10 {
-    background-image: url("https://source.unsplash.com/random/615x863?fire");
+    /* background-image: url("https://source.unsplash.com/random/615x863?fire"); */
+    background-image: url("https://image.pollinations.ai/prompt/fire?width=615&height=863&nologo=true&model=flux&enhance=true&seed=1013");
   }
+
   .bgimg-11 {
-    background-image: url("https://source.unsplash.com/random/615x863?universe");
+    /* background-image: url("https://source.unsplash.com/random/615x863?universe"); */
+    background-image: url("https://image.pollinations.ai/prompt/universe?width=615&height=863&nologo=true&model=flux&enhance=true&seed=1112");
   }
 }
 
 @media screen and (min-device-width: 1300px) {
   .bgimg-1 {
-    background-image: url("https://source.unsplash.com/random/2018x864?rumi");
+    /* background-image: url("https://source.unsplash.com/random/2018x864?rumi"); */
+    background-image: url("https://image.pollinations.ai/prompt/rumi?width=2018&height=864&nologo=true&model=flux&enhance=true&seed=111");
   }
+
   .bgimg-2 {
-    background-image: url("https://source.unsplash.com/random/2006x856?art");
+    /* background-image: url("https://source.unsplash.com/random/2006x856?art"); */
+    background-image: url("https://image.pollinations.ai/prompt/spiritual?width=2006&height=856&nologo=true&model=flux&enhance=true&seed=210");
   }
+
   .bgimg-3 {
-    background-image: url("https://source.unsplash.com/random/2016x863?art");
+    /* background-image: url("https://source.unsplash.com/random/2016x863?art"); */
+    background-image: url("https://image.pollinations.ai/prompt/spiritual?width=2016&height=863&nologo=true&model=flux&enhance=true&seed=39");
   }
+
   .bgimg-4 {
-    background-image: url("https://source.unsplash.com/random/2015x863?art");
+    /* background-image: url("https://source.unsplash.com/random/2015x863?art"); */
+    background-image: url("https://image.pollinations.ai/prompt/spiritual?width=2015&height=863&nologo=true&model=flux&enhance=true&seed=48");
   }
+
   .bgimg-5 {
-    background-image: url("https://source.unsplash.com/random/2017x863?buddha");
+    /* background-image: url("https://source.unsplash.com/random/2017x863?buddha"); */
+    background-image: url("https://image.pollinations.ai/prompt/buddha?width=2017&height=863&nologo=true&model=flux&enhance=true&seed=57");
   }
+
   .bgimg-6 {
-    background-image: url("https://source.unsplash.com/random/2016x864?buddha");
+    /* background-image: url("https://source.unsplash.com/random/2016x864?buddha"); */
+    background-image: url("https://image.pollinations.ai/prompt/buddha?width=2016&height=864&nologo=true&model=flux&enhance=true&seed=66");
   }
+
   .bgimg-7 {
-    background-image: url("https://source.unsplash.com/random/2016x862?art");
+    /* background-image: url("https://source.unsplash.com/random/2016x862?art"); */
+    background-image: url("https://image.pollinations.ai/prompt/spiritual?width=2016&height=862&nologo=true&model=flux&enhance=true&seed=75");
   }
+
   .bgimg-8 {
-    background-image: url("https://source.unsplash.com/random/2014x862?art");
+    /* background-image: url("https://source.unsplash.com/random/2014x862?art"); */
+    background-image: url("https://image.pollinations.ai/prompt/spiritual?width=2014&height=862&nologo=true&model=flux&enhance=true&seed=84");
   }
+
   .bgimg-9 {
-    background-image: url("https://source.unsplash.com/random/2015x863?art");
+    /* background-image: url("https://source.unsplash.com/random/2015x863?art"); */
+    background-image: url("https://image.pollinations.ai/prompt/spiritual?width=2015&height=863&nologo=true&model=flux&enhance=true&seed=93");
   }
+
   .bgimg-10 {
-    background-image: url("https://source.unsplash.com/random/2015x863?fire");
+    /* background-image: url("https://source.unsplash.com/random/2015x863?fire"); */
+    background-image: url("https://image.pollinations.ai/prompt/fire?width=2015&height=863&nologo=true&model=flux&enhance=true&seed=102");
   }
+
   .bgimg-11 {
-    background-image: url("https://source.unsplash.com/random/2015x863?universe");
+    /* background-image: url("https://source.unsplash.com/random/2015x863?universe"); */
+    background-image: url("https://image.pollinations.ai/prompt/universe?width=2015&height=863&nologo=true&model=flux&enhance=true&seed=111");
   }
 }
 
@@ -513,6 +631,7 @@ footer.fg {
   -webkit-backface-visibility: hidden;
   z-index: 5;
 }
+
 #home .bgText,
 #buddha .bgText,
 #plato .bgText,
@@ -520,19 +639,23 @@ footer.fg {
   font-size: 2.1rem;
   line-height: 3rem;
 }
+
 /* Hintergrund Text Animation */
 @-webkit-keyframes bgTextAnim {
   0% {
     background-position: 0% 50%;
   }
+
   100% {
     background-position: 100% 50%;
   }
 }
+
 @keyframes bgTextAnim {
   0% {
     background-position: 0% 50%;
   }
+
   100% {
     background-position: 100% 50%;
   }
@@ -547,6 +670,7 @@ header nav#imgnav {
   margin: auto;
   font-size: 1.4rem;
 }
+
 header img {
   display: block;
   width: 100%;
@@ -581,10 +705,12 @@ footer a {
   font-size: 102%;
   line-height: 0px;
 }
+
 header blockquote a,
 footer a:not([href$="#"]) {
   color: chocolate;
 }
+
 nav#imgnav a:hover,
 footer a:hover {
   font-size: 124%;
@@ -598,16 +724,19 @@ main a {
   font-size: 102%;
   color: chocolate;
 }
+
 a.unformattedLink {
   text-decoration: none;
 }
 
 main {
-  display: block; /*IE*/
+  display: block;
+  /*IE*/
   text-align: justify;
   margin: 0 auto;
   padding: 0;
 }
+
 /* Responsiv Youtube Videos */
 .youtubevideo {
   position: relative;
@@ -618,6 +747,7 @@ main {
   margin: 2vw;
   opacity: 0.9;
 }
+
 .youtubevideo iframe {
   border: none;
   position: absolute;
@@ -627,19 +757,23 @@ main {
   height: 100%;
   margin: auto;
 }
+
 .oldGame {
   width: 100%;
   display: inline-block;
   margin: 0px -90px 0px 5%;
   max-width: 600px;
 }
+
 .oldGame div {
   overflow: visible;
 }
+
 .oldGame iframe {
   width: 88%;
   height: 105%;
 }
+
 /*----------------------------*/
 
 #nachoben {
@@ -672,16 +806,20 @@ main {
   font-size: 1rem;
   letter-spacing: 0.01vw;
 }
+
 #meineCookieZustimmung div {
   padding: 0.5%;
   padding-top: 25vh;
 }
+
 #meineCookieZustimmung a {
   color: #ffba55;
 }
+
 #meineCookieZustimmung a:hover {
   color: #fda016;
 }
+
 #meineCookieZustimmung a#cookieButton {
   display: block;
   margin-top: 25vh;
@@ -695,6 +833,7 @@ main {
   float: right;
   border-radius: 20px;
 }
+
 #meineCookieZustimmung a#cookieButton:hover {
   background: #fda016;
 }
@@ -713,6 +852,7 @@ main {
   font-family: monospace, "Roboto Mono";
   background: #0c0c0c;
 }
+
 .matrixBanner p {
   margin: 0;
   padding: 0;
@@ -728,9 +868,11 @@ main {
   height: 30px;
   text-align: center;
 }
+
 .matrixBanner p:hover {
   color: rgb(125, 140, 50);
 }
+
 .matrixBanner .container {
   height: 100%;
   width: 100%;
@@ -739,10 +881,12 @@ main {
   padding-left: 2vw;
   padding-top: 1vw;
 }
+
 .matrixBanner .text {
   font-size: 16px;
   color: rgb(10, 190, 10);
 }
+
 .matrixBanner a {
   text-decoration: none;
 }
@@ -750,6 +894,7 @@ main {
 .matrixBanner .dud {
   color: #050;
 }
+
 /* Werbung Banners*/
 .werbung1Banner {
   z-index: 6;
@@ -764,9 +909,11 @@ main {
   min-height: 50px;
   opacity: 0.7;
 }
+
 .werbung1Banner:hover {
   opacity: 0.92;
 }
+
 .werbung1Banner p {
   z-index: 6;
   display: block;
@@ -782,15 +929,18 @@ main {
   height: 30px;
   text-align: center;
 }
+
 .werbung1Banner p:hover {
   color: #333333;
 }
+
 .werbung1Banner img {
   height: 15vh;
   width: 55vw;
   min-width: 200px;
   min-height: 80px;
 }
+
 .werbung2Banner img {
   width: 30vw;
   min-width: 300px;
@@ -799,6 +949,7 @@ main {
 
 /* IE Fix*/
 @media screen and (min-width: 0\0) {
+
   body #all header h1,
   #all header h1 a {
     color: rgba(255, 123, 0, 0.4);
@@ -809,6 +960,7 @@ main {
     text-shadow: 0 0 5px rgba(0, 0, 0, 1), 0 0 150px rgba(0, 0, 0, 1);
     font-size: 3.6rem;
   }
+
   body #all header h1,
   #all header h1 a:hover {
     color: rgba(255, 227, 148, 0.151);
@@ -816,6 +968,7 @@ main {
     font: size 40rem;
     transform: scale(1.02);
   }
+
   .bgText {
     background-color: transparent;
     -webkit-text-fill-color: transparent;
@@ -831,13 +984,16 @@ main {
     text-shadow: 0 0 5px black;
     font-family: "SMtitel", Verdana, "SMtext";
   }
+
   blockquote {
     transform: translateY(-16px);
   }
+
   header blockquote:hover {
     transform: translateY(-18px) skewX(-12deg) scale(1.16);
     background-color: rgba(255, 255, 240, 0.075);
   }
+
   .werbung1Banner p {
     right: 24vw;
     background-color: rgba(0, 0, 0, 0.322);
@@ -850,6 +1006,7 @@ main {
 .KF * {
   box-sizing: border-box;
 }
+
 input[type="text"],
 input[type="email"],
 select,
@@ -860,14 +1017,17 @@ textarea {
   border-radius: 8px;
   resize: vertical;
 }
+
 form fieldset div div textarea {
   min-height: 200px;
 }
+
 label {
   padding: 12px 36px 12px 0;
   margin-right: 2vw;
   display: inline-block;
 }
+
 input[type="submit"] {
   background-color: rgb(199, 98, 15);
   color: blanchedalmond;
@@ -878,31 +1038,37 @@ input[type="submit"] {
   float: right;
   margin-top: 4px;
 }
+
 input[type="submit"]:hover {
   background-color: #d68102;
   color: ivory;
 }
+
 .KF form {
   padding: 10px;
   margin: 0 auto;
   text-align: right;
 }
+
 .col-25 {
   float: left;
   width: 25%;
   margin-top: 2px;
 }
+
 .col-75 {
   float: left;
   width: 75%;
   margin-top: 6px;
 }
+
 /* Clearfloat*/
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
+
 /* mein EmailSchicken Btn/img mit js Effect*/
 .meinMailSchickenBtn {
   max-width: 330px;
@@ -912,11 +1078,13 @@ input[type="submit"]:hover {
   min-width: 270px;
   text-align: center;
 }
+
 .meinMailSchickenBtn img {
   max-width: 100%;
   height: auto;
   display: block;
 }
+
 .meinMailSchickenBtn img:hover {
   filter: blur(0.4px) contrast(108%);
 }
@@ -925,23 +1093,28 @@ input[type="submit"]:hover {
   .form {
     text-align: inherit;
   }
+
   .KF form {
     text-align: left;
     padding: 1vw;
   }
+
   label {
     padding: 12px 36px 12px 0;
     margin-left: 2vw;
   }
+
   input[type="submit"] {
     width: 44%;
     text-align: center;
   }
+
   .col-25,
   .col-75 {
     width: 100%;
     margin-top: 0;
   }
+
   .meinMailSchickenBtn {
     max-width: 280px;
     width: 80vw;
@@ -954,6 +1127,7 @@ input[type="submit"]:hover {
   header nav#imgnav {
     font-size: 5vw;
   }
+
   .bgText {
     background-color: transparent;
     -webkit-text-fill-color: transparent;
@@ -969,21 +1143,25 @@ input[type="submit"]:hover {
     text-shadow: 0 0 4px black;
     font-family: "SMtitel", Verdana, "SMtext";
   }
+
   #home .bgimg-11 .bgText,
   #home .bgimg-10 .bgText {
     text-shadow: 0 0 2px black;
   }
 }
+
 @media screen and (max-width: 380px) {
   header nav#imgnav {
     font-size: 0;
   }
 }
+
 @media screen and (max-width: 780px) {
   footer nav {
     font-size: 2.1vw;
   }
 }
+
 @media screen and (max-width: 600px) {
   footer nav {
     font-size: 0vw;
@@ -997,11 +1175,13 @@ input[type="submit"]:hover {
   max-width: 700px;
   min-width: 240px;
 }
+
 .image2 {
   display: block;
   width: 100%;
   height: auto;
 }
+
 .overlay2 {
   position: absolute;
   bottom: 0;
@@ -1013,10 +1193,12 @@ input[type="submit"]:hover {
   height: 100%;
   transition: 0.5s ease;
 }
+
 #about .container2:hover .overlay2 {
   width: 100%;
   left: 0;
 }
+
 .text2 {
   white-space: nowrap;
   color: white;
@@ -1028,6 +1210,7 @@ input[type="submit"]:hover {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
 .text2::after {
   content: "";
   background: url(../img/FOL.png);
@@ -1042,6 +1225,7 @@ input[type="submit"]:hover {
   position: absolute;
   z-index: -1;
 }
+
 .sec2 {
   column-count: 4;
   column-width: 200px;
@@ -1050,17 +1234,20 @@ input[type="submit"]:hover {
 i {
   color: red;
 }
+
 @media screen and (min-width: 1600px) {
   .text2 {
     font-size: 38px;
   }
 }
+
 @media screen and (max-width: 514px) {
   .text2 {
     font-size: 13px;
     font-weight: bold;
   }
 }
+
 /* ** ** ** ** ** ** ** ** ** ** ***** ** ** ** ** ** ** ** ** ** ** **
 ** - CSS source code - © 2020 Rami Al-Saadi. Alle Rechte vorbehalten.  **
 ** - CSS source code - © 2020 Rami Al-Saadi.  All rights reserved.     **
@@ -1086,6 +1273,7 @@ html > body > div[style="text-align: right;position: fixed;z-index:9999999;botto
     content: "<";
     opacity: 0.18;
   }
+
   nav ul::after {
     content: ">";
     opacity: 0.18;
