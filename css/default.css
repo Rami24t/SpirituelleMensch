@@ -1278,6 +1278,10 @@ html > body > div[style="text-align: right;position: fixed;z-index:9999999;botto
     content: ">";
     opacity: 0.18;
   }
+
+  nav li::first-letter {
+    text-decoration-line: underline;
+  }
 }
 
 #top-img2 {
