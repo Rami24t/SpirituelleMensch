@@ -42,15 +42,16 @@ $(document).ready(function () {
 		window.onscroll = function () {
 			let currentScrollPos = window.pageYOffset;
 			if (currentScrollPos > 1200) {
-				if ((prevScrollpos > currentScrollPos) || (currentScrollPos > 8480)) {
-					document.getElementById("nachoben").style.opacity = "0.45";
-				}
-				else {
-					document.getElementById("nachoben").style.opacity = "0.1";
-				}
+				if (document.getElementById("nachoben"))
+					if ((prevScrollpos > currentScrollPos) || (currentScrollPos > 8480)) {
+						document.getElementById("nachoben").style.opacity = "0.45";
+					}
+					else {
+						document.getElementById("nachoben").style.opacity = "0.1";
+					}
 				prevScrollpos = currentScrollPos;
 			}
-			else
+			else if (document.getElementById("nachoben"))
 				document.getElementById("nachoben").style.opacity = "0";
 			return false;
 		}
@@ -341,40 +342,103 @@ $(document).ready(function () {
 	};
 
 	document.addEventListener('keydown', function (event) {
-		pressedKey = event.keyCode;
+		const pressedKey = event.key;
 		console.log(pressedKey);
-		let fieldItem = $('body form fieldset *');
-		if (!(fieldItem.is(':focus')))
-			switch (event.keyCode) {
-				case 37:
+		const fieldItem = $('body form fieldset *');
+		if (!(fieldItem && fieldItem === document.activeElement) && !(fieldItem?.is(':focus'))) {
+			switch (pressedKey) {
+				case 'ArrowLeft':
 					navigateLeft();
 					break;
-				case 39:
+				case 'ArrowRight':
 					navigateRight();
 					break;
-				case 72:
+				case 'h':
+				case 'H':
 					window.location.href = './';
 					break;
-				case 66:
+				case 'b':
+				case 'B':
 					window.location.href = './Buddha';
 					break;
-				case 82:
+				case 'r':
+				case 'R':
 					window.location.href = './Rumi';
 					break;
-				case 80:
+				case 'p':
+				case 'P':
 					window.location.href = './Plato';
 					break;
-				case 83:
+				case 's':
+				case 'S':
 					window.location.href = './Socrates';
 					break;
-				case 75:
+				case 'k':
+				case 'K':
 					window.location.href = './SMRKontaktFormular';
 					break;
-				case 65:
+				case 'a':
+				case 'A':
 					window.location.href = './About';
 					break;
+				case 'i':
+				case 'I':
+					window.location.href = './DSE#impressum';
+					break;
+				case 'd':
+				case 'D':
+					window.location.href = './DSE#dtse';
+					break;
+				case 'n':
+				case 'N':
+					window.location.href = './NinjaFlex';
+					break;
 			}
+		}
 	});
+	/* event.keyCode is DEPRICATED AND HENCE I REPLACED THE FOLLOWING keydown function WITH THE CODE ABOVE ^^^^^
+		document.addEventListener('keydown', function (event) {
+			pressedKey = event.keyCode;
+			console.log(pressedKey);
+			let fieldItem = $('body form fieldset *');
+			if (!(fieldItem.is(':focus'))) {
+				switch (event.keyCode) {
+					case 37: // Left arrow
+						navigateLeft();
+						break;
+					case 39: // Right arrow
+						navigateRight();
+						break;
+					case 72: // H - Home
+						window.location.href = './';
+						break;
+					case 66: // B - Buddha
+						window.location.href = './Buddha';
+						break;
+					case 82: // R - Rumi
+						window.location.href = './Rumi';
+						break;
+					case 80: // P - Plato
+						window.location.href = './Plato';
+						break;
+					case 83: // S - Socrates
+						window.location.href = './Socrates';
+						break;
+					case 75: // K - Kontakt
+						window.location.href = './SMRKontaktFormular';
+						break;
+					case 65: // A - About
+						window.location.href = './About';
+						break;
+					case 73: // I - Impressum
+						window.location.href = './DSE#impressum';
+						break;
+					case 68: // D - DTSE
+						window.location.href = './DSE#dtse';
+						break;
+				}
+			}
+		}); */
 
 
 	function removejscssfile(filename, filetype) {
@@ -424,25 +488,25 @@ $(document).ready(function () {
 		let timesClicked = 0;
 		$('body div[class^="bgimg-"]').click(function () {
 			timesClicked++;
-	 /* if (timesClicked % 2 === 0) {
-          $(this).css(
-            "background-image",
-            "url(https://source.unsplash.com/random/" +
-              window.innerWidth +
-              "x" +
-              window.innerHeight*0.9 +
-              "?universe?time=" +
-              new Date().getTime() +
-              ")"
-          );
-        } else ... window.innerHeight*0.95 + ... */
+		 /* if (timesClicked % 2 === 0) {
+				$(this).css(
+				"background-image",
+				"url(https://source.unsplash.com/random/" +
+					window.innerWidth +
+					"x" +
+					window.innerHeight*0.9 +
+					"?universe?time=" +
+					new Date().getTime() +
+					")"
+				);
+			} else ... window.innerHeight*0.95 + ... */
 			const element = this;
-			const keyWord = "universe";
+			const keyWord = "dark-cosmos";
 			let width = Math.floor(window.innerWidth);
 			let height = (timesClicked % 2 === 0) ?
 				Math.floor(window.innerHeight * 0.9) :
 				Math.floor(window.innerHeight * 0.95);
-			const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(keyWord)}?width=${width}&height=${height}&nologo=true&model=flux&enhance=true&seed=${timesClicked}${Math.floor(Math.random() * 10000)}`;
+			const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(keyWord)}?width=${width}&height=${height}&nologo=true&model=flux&enhance=true&seed=${timesClicked + 1}${Math.floor(Math.random() * 1000).toString()}`;
 			const img = new Image();
 			img.onload = () => {
 				element.style.backgroundImage = `url("${url}")`;
