@@ -467,7 +467,7 @@ footer.fg {
 
 .bgimg-11 {
   /* background-image: url("https://source.unsplash.com/random/1215x863?universe"); */
-  background-image: url("https://image.pollinations.ai/prompt/universe?width=1215&height=863&nologo=true&model=flux&enhance=true&seed=11");
+  background-image: url("https://image.pollinations.ai/prompt/dark-cosmos?width=1215&height=863&nologo=true&model=flux&enhance=true&seed=11");
   min-height: 90vh;
 }
 
@@ -541,7 +541,7 @@ footer.fg {
 
   .bgimg-11 {
     /* background-image: url("https://source.unsplash.com/random/615x863?universe"); */
-    background-image: url("https://image.pollinations.ai/prompt/universe?width=615&height=863&nologo=true&model=flux&enhance=true&seed=1112");
+    background-image: url("https://image.pollinations.ai/prompt/dark-cosmos?width=615&height=863&nologo=true&model=flux&enhance=true&seed=1112");
   }
 }
 
@@ -597,8 +597,8 @@ footer.fg {
   }
 
   .bgimg-11 {
-    /* background-image: url("https://source.unsplash.com/random/2015x863?universe"); */
-    background-image: url("https://image.pollinations.ai/prompt/universe?width=2015&height=863&nologo=true&model=flux&enhance=true&seed=111");
+    /** background-image: url("https://source.unsplash.com/random/2015x863?universe"); **/
+    background-image: url("https://image.pollinations.ai/prompt/dark-cosmos?width=2015&height=863&nologo=true&model=flux&enhance=true&seed=111");
   }
 }
 
